@@ -67,3 +67,6 @@
     Console.WriteLine("Sem IPI: " + vl_compraB.ToString("C"));
     Console.WriteLine("Com IPI: " + vl_compraB_ipi.ToString("C"));
 
+/*
+ ESTE TEXTO ESTÁ ERRADO, FIZ UMA CAGADA NO PROJETO---- VOU TESTAR PEGAR VERSAO ANTERIOR.
+ */
