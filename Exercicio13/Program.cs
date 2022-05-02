@@ -32,5 +32,5 @@
     //variavel.ToString("F") - retorna apenas duas casas decimais
     //Exemplo: 1213.5645236 => 1213,56
 
-    //variavel.ToString("C") - retorna valor mometário em reais c/ 2 casas decimais.
+    //variavel.ToString("C") - retorna valor monetário em reais c/ 2 casas decimais.
     Console.WriteLine("\nO salário final do empregado é: " + salario_final.ToString("C"));
