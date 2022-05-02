@@ -12,7 +12,7 @@
         " o valor do salário mínimo, o preço de custo de cada bicicleta e o número de bicicletas\n" +
         " vendidas pelo vendedor, calcule e mostre: o salário do empregado");
 
-    double preco_custo, salario_minimo, comissao;
+    double preco_custo, salario_minimo, comissao, salario_final;
     int tot_bicicleta;
     //double preco_venda;
 
@@ -27,5 +27,10 @@
 
     //preco_venda = preco_custo + (preco_custo / 2);
     comissao = (preco_custo * 0.15) * tot_bicicleta;
+    salario_final = (2 * salario_minimo) + comissao;
 
-    Console.WriteLine("O salário do empregado é: " + (2 * salario_minimo + comissao));
+    //variavel.ToString("F") - retorna apenas duas casas decimais
+    //Exemplo: 1213.5645236 => 1213,56
+
+    //variavel.ToString("C") - retorna valor mometário em reais c/ 2 casas decimais.
+    Console.WriteLine("\nO salário final do empregado é: " + salario_final.ToString("C"));
