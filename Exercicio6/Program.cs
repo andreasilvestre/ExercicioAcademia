@@ -34,8 +34,8 @@
     vl_compraA_ipi = vl_compraA + ((porc_ipiA / 100) * vl_compraA);
 
     Console.WriteLine("\nO valor da compra do parafuso A, de código " + cd_parafusoA + " é:");
-    Console.WriteLine("Sem IPI: " + vl_compraA);
-    Console.WriteLine("Com IPI: " + vl_compraA_ipi);
+    Console.WriteLine("Sem IPI: " + vl_compraA.ToString("C"));
+    Console.WriteLine("Com IPI: " + vl_compraA_ipi.ToString("C"));
 
 
     // *** Parafuso B ***
@@ -64,6 +64,6 @@
     vl_compraB_ipi = vl_compraB + ((porc_ipiB / 100) * vl_compraB);
 
     Console.WriteLine("\nO valor da compra do parafuso B, de código " + cd_parafusoB + " é:");
-    Console.WriteLine("Sem IPI: " + vl_compraB);
-    Console.WriteLine("Com IPI: " + vl_compraB_ipi);
+    Console.WriteLine("Sem IPI: " + vl_compraB.ToString("C"));
+    Console.WriteLine("Com IPI: " + vl_compraB_ipi.ToString("C"));
 
