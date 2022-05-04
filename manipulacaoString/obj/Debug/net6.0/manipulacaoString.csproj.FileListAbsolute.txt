@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\ExercicioAcademia\manipulacaoString\obj\Debug\net6.0\manipulacaoString.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\manipulacaoString\obj\Debug\net6.0\manipulacaoString.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\ExercicioAcademia\manipulacaoString\obj\Debug\net6.0\manipulacaoString.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\manipulacaoString\obj\Debug\net6.0\manipulacaoString.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ExercicioAcademia\manipulacaoString\obj\Debug\net6.0\manipulacaoString.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\manipulacaoString\bin\Debug\net6.0\manipulacaoString.exe
+C:\Users\Usuario\source\repos\ExercicioAcademia\manipulacaoString\bin\Debug\net6.0\manipulacaoString.deps.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\manipulacaoString\bin\Debug\net6.0\manipulacaoString.runtimeconfig.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\manipulacaoString\bin\Debug\net6.0\manipulacaoString.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\manipulacaoString\bin\Debug\net6.0\manipulacaoString.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\manipulacaoString\obj\Debug\net6.0\manipulacaoString.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\manipulacaoString\obj\Debug\net6.0\refint\manipulacaoString.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\manipulacaoString\obj\Debug\net6.0\manipulacaoString.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\manipulacaoString\obj\Debug\net6.0\manipulacaoString.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\manipulacaoString\obj\Debug\net6.0\ref\manipulacaoString.dll
