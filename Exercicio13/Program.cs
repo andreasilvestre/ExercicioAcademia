@@ -34,3 +34,4 @@
 
     //variavel.ToString("C") - retorna valor monetário em reais c/ 2 casas decimais.
     Console.WriteLine("\nO salário final do empregado é: " + salario_final.ToString("C"));
+    Console.Write("Testando subir git no gráfico vs2022");
