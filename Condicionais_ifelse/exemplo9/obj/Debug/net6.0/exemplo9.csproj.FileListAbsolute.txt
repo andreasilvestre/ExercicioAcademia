@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo9\bin\Debug\net6.0\exemplo9.exe
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo9\bin\Debug\net6.0\exemplo9.deps.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo9\bin\Debug\net6.0\exemplo9.runtimeconfig.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo9\bin\Debug\net6.0\exemplo9.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo9\bin\Debug\net6.0\exemplo9.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo9\obj\Debug\net6.0\exemplo9.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo9\obj\Debug\net6.0\exemplo9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo9\obj\Debug\net6.0\exemplo9.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo9\obj\Debug\net6.0\exemplo9.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo9\obj\Debug\net6.0\exemplo9.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo9\obj\Debug\net6.0\exemplo9.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo9\obj\Debug\net6.0\refint\exemplo9.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo9\obj\Debug\net6.0\exemplo9.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo9\obj\Debug\net6.0\exemplo9.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo9\obj\Debug\net6.0\ref\exemplo9.dll
