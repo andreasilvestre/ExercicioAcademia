@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo12_calculadora\bin\Debug\net6.0\exemplo12_calculadora.exe
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo12_calculadora\bin\Debug\net6.0\exemplo12_calculadora.deps.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo12_calculadora\bin\Debug\net6.0\exemplo12_calculadora.runtimeconfig.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo12_calculadora\bin\Debug\net6.0\exemplo12_calculadora.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo12_calculadora\bin\Debug\net6.0\exemplo12_calculadora.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo12_calculadora\obj\Debug\net6.0\exemplo12_calculadora.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo12_calculadora\obj\Debug\net6.0\exemplo12_calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo12_calculadora\obj\Debug\net6.0\exemplo12_calculadora.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo12_calculadora\obj\Debug\net6.0\exemplo12_calculadora.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo12_calculadora\obj\Debug\net6.0\exemplo12_calculadora.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo12_calculadora\obj\Debug\net6.0\exemplo12_calculadora.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo12_calculadora\obj\Debug\net6.0\refint\exemplo12_calculadora.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo12_calculadora\obj\Debug\net6.0\exemplo12_calculadora.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo12_calculadora\obj\Debug\net6.0\exemplo12_calculadora.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo12_calculadora\obj\Debug\net6.0\ref\exemplo12_calculadora.dll
