@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo4\bin\Debug\net6.0\exemplo4.exe
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo4\bin\Debug\net6.0\exemplo4.deps.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo4\bin\Debug\net6.0\exemplo4.runtimeconfig.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo4\bin\Debug\net6.0\exemplo4.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo4\bin\Debug\net6.0\exemplo4.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo4\obj\Debug\net6.0\exemplo4.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo4\obj\Debug\net6.0\exemplo4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo4\obj\Debug\net6.0\exemplo4.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo4\obj\Debug\net6.0\exemplo4.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo4\obj\Debug\net6.0\exemplo4.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo4\obj\Debug\net6.0\exemplo4.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo4\obj\Debug\net6.0\refint\exemplo4.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo4\obj\Debug\net6.0\exemplo4.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo4\obj\Debug\net6.0\exemplo4.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Condicionais_ifelse\exemplo4\obj\Debug\net6.0\ref\exemplo4.dll
