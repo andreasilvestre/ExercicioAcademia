@@ -159,7 +159,7 @@
 
 
 
-
+//exercicio3
 //Console.WriteLine("Exercício 3 - Escrever um algoritmo para ler quatro valores inteiros," +
 //    "\n calcular a sua média, e escrever na tela os que são superiores à média.");
 
@@ -910,8 +910,9 @@
 
 
 
-/*
-16 - Escreva um algoritmo que leia o placar de um jogo da primeira fase da copa do Brasil. 
+/*           AULA 06/05/2022 - 06052022 EXERCICIOS DE 16 A 20
+ * 
+Exercício 16 - Escreva um algoritmo que leia o placar de um jogo da primeira fase da copa do Brasil. 
 Caso o time de fora tenha ganho o jogo por mais de 2 gols de diferença, mostre
 na tela uma mensagem indicando que o time de fora já se classificou para a próxima fase.
 Caso contrário, mostre uma mensagem indicando que os dois times irão se
@@ -954,7 +955,7 @@ plus: caso ocorra um segundo jogo, leia o placar desse novo jogo e então diga q
 
 
 /*
-17 - Faça um algoritmo que leia o tamanho dos lados de um triangulo (lado a, b e c), e 
+Exercício 17 - Faça um algoritmo que leia o tamanho dos lados de um triangulo (lado a, b e c), e 
 então diga se esses lados podem ou não formar um triangulo. Para que os lados
 formem um triângulo, todos os lados devem ser menores ou iguais a soma dos 
 outros dois lados. Caso os lados formem um triangulo, diga se o mesmo é equilátero (todos
@@ -962,49 +963,313 @@ os lados iguais), isoceles (somente 2 lados são iguais) ou escaleno (os 3 lados
 */
 
 
-double a, b, c;
-double soma_ac; // para b
-double soma_bc; //para a
-double soma_ab; //para c
+//double a, b, c;
+//double soma_ac; // para b
+//double soma_bc; //para a
+//double soma_ab; //para c
 
-Console.WriteLine("Digite os lados de um triangulo (lado a, b e c): ");
-a = double.Parse(Console.ReadLine());
-b = double.Parse(Console.ReadLine());
-c = double.Parse(Console.ReadLine());
+//Console.WriteLine("Digite os lados de um triangulo (lado a, b e c): ");
+//a = double.Parse(Console.ReadLine());
+//b = double.Parse(Console.ReadLine());
+//c = double.Parse(Console.ReadLine());
 
-soma_ab = a + b;
-soma_ac = a + c;
-soma_bc = b + c;
+//soma_ab = a + b;
+//soma_ac = a + c;
+//soma_bc = b + c;
 
-if ((a <= soma_bc) && (b <= soma_ac) && (c <= soma_ab))
-{
-    Console.WriteLine("Estes lados podem formar um triangulo");
-    if ((a==b) && (a==c)) // se a=b e c, logo b=c - não precisa colocar
-    {
-        Console.WriteLine("Equilátero"); // tres lados iguais
-    }
-    else if ((a == b) || (a == c) || (b == c))
-    {
-        Console.WriteLine("Isoceles"); // dois lados iguais
-    }
-    else
-    {
-        Console.WriteLine("Escaleno"); // tres lados diferentes    
-    }
-}
-else 
-{
-    Console.WriteLine("Os lados não formam um triangulo");
-}
+//if ((a <= soma_bc) && (b <= soma_ac) && (c <= soma_ab))
+//{
+//    Console.WriteLine("Estes lados podem formar um triangulo");
+//    if ((a==b) && (a==c)) // se a=b e c, logo b=c - não precisa colocar
+//    {
+//        Console.WriteLine("Equilátero - os tres lados iguais"); // tres lados iguais
+//    }
+//    else if ((a == b) || (a == c) || (b == c))
+//    {
+//        Console.WriteLine("Isoceles - há dois lados iguais"); // dois lados iguais
+//    }
+//    else
+//    {
+//        Console.WriteLine("Escaleno - os tres lados são diferentes"); // tres lados diferentes    
+//    }
+//}
+//else 
+//{
+//    Console.WriteLine("Os lados não formam um triangulo");
+//}
 
 
 
-/*
-18 - Escreva um algoritmo que leia 3 valores pelo teclado e então informe qual o maior deles.
 
-19 - Ajuste o exercício 3 de maneira que mostre os valores informados em ordem crescente.
 
-20 - Escreva um algoritmo para o jogo de adivinhação do número secreto. O jogador tem 3 chances e recebe dicas do tipo “é maior” ou “é menor”. 
+//Console.WriteLine("Exercício 18 - Escreva um algoritmo que leia 3 valores pelo teclado" +
+//    "\n e então informe qual o maior deles.");
+
+///// <summary>
+///// guarda o primeiro número digitado
+///// </summary>
+//double n1;
+
+///// <summary>
+///// guarda o segundo número digitado
+///// </summary>
+//double n2;
+
+///// <summary>
+///// guarda o terceiro número digitado
+///// </summary>
+//double n3;
+
+///// <summary>
+///// guarda o maior número digitado
+///// </summary>
+//double maior;
+
+//Console.WriteLine("Digite tres números qualquer: ");
+//n1 = double.Parse(Console.ReadLine());
+//n2 = double.Parse(Console.ReadLine());
+//n3 = double.Parse(Console.ReadLine());
+
+//maior = 0;
+
+////n1 maior
+//if (n1 > n2 && n1 > n3)
+//{
+//    maior = n1;
+//}
+
+////n2 maior
+//if (n2 > n1 && n2 > n3)
+//{
+//    maior = n2;
+//}
+
+////n3 maior
+//if (n3 > n1 && n3 > n2)
+//{
+//    maior = n3;
+//}
+
+//if (n1 == n2 && n2 == n3 && n3 == n1)
+//{
+//    maior = n1;// guarda qualquer valor pq é tudo igual
+//    Console.WriteLine("Os números digitados são iguais");    
+//}
+//else
+//{
+//    Console.WriteLine("O número maior é " + maior);
+//}
+
+
+
+
+
+
+
+////exercicio19
+//Console.WriteLine("Exercício 19 - Ajuste o exercício 3 de maneira que mostre os valores" +
+//    "\n informados em ordem crescente.\n");
+
+//Console.WriteLine("Exercício 3 - Escrever um algoritmo para ler quatro valores inteiros," +
+//    "\n calcular a sua média, e escrever na tela os que são superiores à média.\n");
+
+///// <summary>
+///// guarda quatro números inteiros digitado pelo usuário
+///// </summary>
+//int num1, num2, num3, num4;
+
+///// <summary>
+///// guarda o valor da media calculada
+///// </summary>
+//double media;
+
+//int[] vetor = new int[4];
+////int[] vetor = new int[4];
+
+//Console.WriteLine("Digite 4 números inteiros: ");
+//num1 = int.Parse(Console.ReadLine());
+//num2 = int.Parse(Console.ReadLine());
+//num3 = int.Parse(Console.ReadLine());
+//num4 = int.Parse(Console.ReadLine());
+
+//media = (num1 + num2 + num3 + num4) / 4;
+//Console.WriteLine("A média é: " + media);
+//Console.WriteLine("Os valores superiores à media são: ");
+//if (num1 > media)
+//{
+//    Console.WriteLine(num1);
+//}
+//if (num2 > media)
+//{
+//    Console.WriteLine(num2);
+//}
+//if (num3 > media)
+//{
+//    Console.WriteLine(num3);
+//}
+//if (num4 > media)
+//{
+//    Console.WriteLine(num4);
+//}
+
+//vetor[0] = num1;
+//vetor[1] = num2;
+//vetor[2] = num3;
+//vetor[3] = num4;
+
+//Array.Sort(vetor);
+
+//Console.WriteLine("Os números informados em ordem crescente são: ");
+//Console.WriteLine(vetor[0]);
+//Console.WriteLine(vetor[1]);
+//Console.WriteLine(vetor[2]);
+//Console.WriteLine(vetor[3]);
+
+
+
+
+//exemplo internet de vetor ordem crescente
+//int contador, contador2 = 0;
+//int[] vetor = new int[4];
+
+//for (contador = 0; contador < 4; contador++)
+//{
+//    Console.Write("Informe o numero: ");
+//    vetor[contador] = int.Parse(Console.ReadLine());
+//}
+
+//Array.Sort(vetor); //ordem crescente
+
+//for (contador = 3; contador >= 0; contador--)
+//{
+//    Console.Write("\nO " + (contador2 + 1) + "º número é: ");
+//    Console.Write(vetor[contador2]);
+//    contador2++;
+//}
+// // Console.ReadKey();
+
+
+////exemplo melhorado da solução internet - ordem crescente
+//int contador = 0;
+//int[] vetor = new int[4];
+
+//for (contador = 0; contador < 4; contador++)
+//{
+//    Console.Write("Informe o numero: ");
+//    vetor[contador] = int.Parse(Console.ReadLine());
+//}
+
+//Array.Sort(vetor);
+//contador = 0;
+
+//for (contador = 0; contador < 4; contador++)
+//{
+//    Console.Write("\nO " + (contador + 1) + "º número é: ");
+//    Console.Write(vetor[contador]);
+//}
+
+
+/* exercicio20
+Exercício 20 - Escreva um algoritmo para o jogo de adivinhação do número secreto. 
+O jogador tem 3 chances e recebe dicas do tipo “é maior” ou “é menor”. 
 plus: você pode gerar o número de forma randomica (função random c#).
  * 
  */
+
+Random randNum = new Random();
+int num_aposta, num_secreto;
+
+num_secreto = randNum.Next();
+num_secreto = 2520;
+
+Console.WriteLine("Nùmero secreto: " + num_secreto);
+
+//primeira tentativa
+Console.WriteLine("Caro jogador, fale qual é seu número de aposta:");
+num_aposta = int.Parse(Console.ReadLine());
+
+if (num_secreto == num_aposta)
+{
+    Console.WriteLine("Acertou BINGOOOO!!!!");
+}
+else if (num_secreto < num_aposta)
+{
+    Console.WriteLine("DICA: O número secreto é MENOR que seu número apostado.");
+}
+else
+{
+    Console.WriteLine("DICA: O número secreto é MAIOR que seu número apostado.");
+}
+
+
+//segunda tentativa
+if (num_aposta != num_secreto)
+{
+    Console.WriteLine("Tente mais uma vez: ");
+    num_aposta = int.Parse(Console.ReadLine());
+
+    if (num_secreto == num_aposta)
+    {
+        Console.WriteLine("Acertou BINGOOOO!!!!");
+    }
+    else if (num_secreto < num_aposta)
+    {
+        Console.WriteLine("DICA: O número secreto é MENOR que seu número apostado.");
+    }
+    else
+    {
+        Console.WriteLine("DICA: O número secreto é MAIOR que seu número apostado.");
+    }
+}
+
+//terceira e ultima tentativa
+if (num_aposta != num_secreto)
+{
+    Console.WriteLine("Tente pela última vez: ");
+    num_aposta = int.Parse(Console.ReadLine());
+
+    if (num_secreto == num_aposta)
+    {
+        Console.WriteLine("Acertou BINGOOOO!!!!");
+    }
+    else
+    {
+        Console.WriteLine("Perdeu");
+    }
+}
+
+Console.WriteLine("FIM JOGO!");
+
+
+
+
+
+/* exercicio20 - USANDO FOR
+Exercício 20 - Escreva um algoritmo para o jogo de adivinhação do número secreto. 
+O jogador tem 3 chances e recebe dicas do tipo “é maior” ou “é menor”. 
+plus: você pode gerar o número de forma randomica (função random c#).
+ */
+// **** usando for ****
+//int num_secreto = 10525, num_aposta;
+
+//for (int i = 0; i < 3; i++)
+//{
+//    Console.WriteLine("Caro jogador, qual é sua aposta?");
+//    num_aposta = int.Parse(Console.ReadLine());
+
+//    if (num_secreto == num_aposta)
+//    {
+//        Console.WriteLine("Acertou BINGOOOO!!!!");
+//        break;
+//    }
+//    else if ((num_secreto < num_aposta) && (i < 2) )
+//    {
+//        Console.WriteLine("DICA: O número secreto é MENOR que seu número apostado.");
+//    }
+//    else if ((num_secreto > num_aposta) && (i < 2))
+//        {
+//        Console.WriteLine("DICA: O número secreto é MAIOR que seu número apostado.");
+//    }
+//}
+
+//Console.WriteLine("FIM JOGO!");
