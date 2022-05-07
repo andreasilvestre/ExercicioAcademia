@@ -882,3 +882,129 @@
 //Console.WriteLine("A quantidade de tinta para cobrir a área é de: " + quantidadeTinta + " litros");
 //Console.WriteLine("A quantidade de latas de 18 litros para cobrir a área é de: " + quantidadeLatas);
 //Console.WriteLine("O valor total a ser gasto é de: R$ " + valorCompra);
+
+
+////aula 06/05/2022
+////exemplo 18
+//double salario, aumento=0;
+
+//Console.WriteLine("Digite o salario: ");
+//salario = double.Parse(Console.ReadLine());
+
+//if (salario < 900)
+//{
+//    aumento = 5;
+//}
+//else if (salario >= 900 && salario < 1400)
+//{
+//    aumento = 8;
+//}
+//else if (salario >= 1400)
+//{
+//    aumento = 10;
+//}
+
+//salario = salario + salario * (aumento / 100);
+//Console.WriteLine("O aumento é " + aumento + "% e o salario é " + salario.ToString("C");
+
+
+
+
+/*
+16 - Escreva um algoritmo que leia o placar de um jogo da primeira fase da copa do Brasil. 
+Caso o time de fora tenha ganho o jogo por mais de 2 gols de diferença, mostre
+na tela uma mensagem indicando que o time de fora já se classificou para a próxima fase.
+Caso contrário, mostre uma mensagem indicando que os dois times irão se
+enfrentar novamente em um novo jogo.
+ex: time da casa 4 x 3 time de fora, mostra "Os dois times se enfrentarão em um novo jogo"
+ex2: time da casa 1 x 3 time de fora, mostra "O time de fora já se classificou"
+plus: caso ocorra um segundo jogo, leia o placar desse novo jogo e então diga quem passou de fase.
+*/
+
+//int time_casa;
+//int time_fora;
+//int diferenca;
+
+//Console.WriteLine("Digite o placar do jogo no formato: ");
+//time_casa = int.Parse(Console.ReadLine());
+//time_fora = int.Parse(Console.ReadLine());
+
+//// 5x3 =
+//// 5-3=2
+//diferenca = time_fora - time_casa;
+
+//if (diferenca >= 2)
+//{
+//    Console.WriteLine("O time de fora foi classificado para a próxima fase");
+//}
+//else
+//{ 
+//    Console.WriteLine("Os dois times se enfrentarão em um novo jogo");
+
+//    //plus
+//    //Console.WriteLine("Digite o placar do segundo jogo: ");
+//    //time_casa = int.Parse(Console.ReadLine());
+//    //time_fora = int.Parse(Console.ReadLine());   
+//}
+
+
+
+
+
+
+
+/*
+17 - Faça um algoritmo que leia o tamanho dos lados de um triangulo (lado a, b e c), e 
+então diga se esses lados podem ou não formar um triangulo. Para que os lados
+formem um triângulo, todos os lados devem ser menores ou iguais a soma dos 
+outros dois lados. Caso os lados formem um triangulo, diga se o mesmo é equilátero (todos
+os lados iguais), isoceles (somente 2 lados são iguais) ou escaleno (os 3 lados são diferentes).
+*/
+
+
+double a, b, c;
+double soma_ac; // para b
+double soma_bc; //para a
+double soma_ab; //para c
+
+Console.WriteLine("Digite os lados de um triangulo (lado a, b e c): ");
+a = double.Parse(Console.ReadLine());
+b = double.Parse(Console.ReadLine());
+c = double.Parse(Console.ReadLine());
+
+soma_ab = a + b;
+soma_ac = a + c;
+soma_bc = b + c;
+
+if ((a <= soma_bc) && (b <= soma_ac) && (c <= soma_ab))
+{
+    Console.WriteLine("Estes lados podem formar um triangulo");
+    if ((a==b) && (a==c)) // se a=b e c, logo b=c - não precisa colocar
+    {
+        Console.WriteLine("Equilátero"); // tres lados iguais
+    }
+    else if ((a == b) || (a == c) || (b == c))
+    {
+        Console.WriteLine("Isoceles"); // dois lados iguais
+    }
+    else
+    {
+        Console.WriteLine("Escaleno"); // tres lados diferentes    
+    }
+}
+else 
+{
+    Console.WriteLine("Os lados não formam um triangulo");
+}
+
+
+
+/*
+18 - Escreva um algoritmo que leia 3 valores pelo teclado e então informe qual o maior deles.
+
+19 - Ajuste o exercício 3 de maneira que mostre os valores informados em ordem crescente.
+
+20 - Escreva um algoritmo para o jogo de adivinhação do número secreto. O jogador tem 3 chances e recebe dicas do tipo “é maior” ou “é menor”. 
+plus: você pode gerar o número de forma randomica (função random c#).
+ * 
+ */
