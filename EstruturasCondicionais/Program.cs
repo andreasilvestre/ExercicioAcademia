@@ -910,62 +910,143 @@
 
 
 
-/*           AULA 06/05/2022 - 06052022 EXERCICIOS DE 16 A 20
- * 
-Exercício 16 - Escreva um algoritmo que leia o placar de um jogo da primeira fase da copa do Brasil. 
-Caso o time de fora tenha ganho o jogo por mais de 2 gols de diferença, mostre
-na tela uma mensagem indicando que o time de fora já se classificou para a próxima fase.
-Caso contrário, mostre uma mensagem indicando que os dois times irão se
-enfrentar novamente em um novo jogo.
-ex: time da casa 4 x 3 time de fora, mostra "Os dois times se enfrentarão em um novo jogo"
-ex2: time da casa 1 x 3 time de fora, mostra "O time de fora já se classificou"
-plus: caso ocorra um segundo jogo, leia o placar desse novo jogo e então diga quem passou de fase.
-*/
+////          AULA 06/05/2022 - 06052022 EXERCICIOS DE 16 A 20
+////exercicio16 = pronto
+//Console.WriteLine("\n " +
+//"\n Exercício 16 - Escreva um algoritmo que leia o placar de um jogo da primeira fase da copa do Brasil." +
+//"\n Caso o time de fora tenha ganho o jogo por mais de 2 gols de diferença, mostre" +
+//"\n na tela uma mensagem indicando que o time de fora já se classificou para a próxima fase." +
+//"\n Caso contrário, mostre uma mensagem indicando que os dois times irão se" +
+//"\n enfrentar novamente em um novo jogo." +
+//"\n ex: time da casa 4 x 3 time de fora, mostra \"Os dois times se enfrentarão em um novo jogo\"" +
+//"\n ex2: time da casa 1 x 3 time de fora, mostra \"O time de fora já se classificou\"" +
+//"\n plus: caso ocorra um segundo jogo, leia o placar desse novo jogo e então diga quem passou de fase.");
 
-//int time_casa;
-//int time_fora;
+///// <summary>
+///// guarda os gols do time A
+///// </summary>
+//int time_a; 
+
+///// <summary>
+///// guarda os gols do time B
+///// </summary>
+//int time_b; 
+
+///// <summary>
+///// guarda a diferença de gols do time B em cima do time A
+///// </summary>
 //int diferenca;
 
-//Console.WriteLine("Digite o placar do jogo no formato: ");
-//time_casa = int.Parse(Console.ReadLine());
-//time_fora = int.Parse(Console.ReadLine());
+///// <summary>
+///// guarda o saldo de gols to time A
+///// </summary>
+//int saldo_a;
 
-//// 5x3 =
-//// 5-3=2
-//diferenca = time_fora - time_casa;
+///// <summary>
+///// guarda o saldo de gols do time B
+///// </summary>
+//int saldo_b;
+
+//// time casa é A e time fora é B
+//Console.WriteLine("Digite o placar do jogo: ");
+//time_a = int.Parse(Console.ReadLine());
+//time_b = int.Parse(Console.ReadLine());
+
+//// 5x3 => 5-3=2
+////para verificar se existe a diferença de 2 gols
+//diferenca = time_b - time_a;
+
+////verifica saldo de gols
+//saldo_b = time_b - time_a;
+//saldo_a = time_a - time_b;
 
 //if (diferenca >= 2)
 //{
-//    Console.WriteLine("O time de fora foi classificado para a próxima fase");
+//    Console.WriteLine("O time B classificado para a próxima fase");
 //}
 //else
-//{ 
+//{
 //    Console.WriteLine("Os dois times se enfrentarão em um novo jogo");
 
 //    //plus
-//    //Console.WriteLine("Digite o placar do segundo jogo: ");
-//    //time_casa = int.Parse(Console.ReadLine());
-//    //time_fora = int.Parse(Console.ReadLine());   
+//    Console.WriteLine("Digite o placar da segunda fase: ");
+//    time_a = int.Parse(Console.ReadLine());
+//    time_b = int.Parse(Console.ReadLine());
+//    if (time_a > time_b)
+//    {
+//        Console.WriteLine("O time A passou de fase ==> FOI PARA A 3ª FASE");
+//    }
+//    else if (time_a < time_b)
+//    {
+//        Console.WriteLine("O time B passou de fase ==> FOI PARA A 3ª FASE");
+//    }
+//    else //deu empate na segunda fase
+//    {
+//        //antes dos penaltis, verifica saldo de gols
+//        if (saldo_a > saldo_b)
+//        {
+//            Console.WriteLine("O time A passou de fase pela regra de saldo de gols" +
+//             "\n FOI PARA A 3ª FASE");
+//        }
+//        else if (saldo_b > saldo_a)
+//        {
+//            Console.WriteLine("O time B passou de fase pela regra de saldo de gols" +
+//             "\n FOI PARA A 3ª FASE");
+//        }
+//        else
+//        {
+//            Console.WriteLine("EMPATE! O jogo irá para os pênaltis:"); // não há empate em penaltis
+
+//            //VERIFICANDO EMPATE
+//            Console.WriteLine("Digite o resultado dos pênaltis: ");
+//            time_a = int.Parse(Console.ReadLine());
+//            time_b = int.Parse(Console.ReadLine());
+//            if (time_a > time_b)
+//            {
+//                Console.WriteLine("O time A passou de fase ==> FOI PARA A 3ª FASE");
+//            }
+//            else if (time_a < time_b)
+//            {
+//                Console.WriteLine("O time B passou de fase ==> FOI PARA A 3ª FASE");
+//            }
+//            else
+//            {
+//                Console.WriteLine("ERRO - NÃO EXISTE EMPATE EM PÊNALTIS");
+
+//            }
+//        }
+//    }
 //}
 
 
 
+////exercicio17 = pronto
+//Console.WriteLine("\n " +
+//"\n Exercício 17 - Faça um algoritmo que leia o tamanho dos lados de um triangulo (lado a, b e c), e" +
+//"\n então diga se esses lados podem ou não formar um triangulo. Para que os lados" +
+//"\n formem um triângulo, todos os lados devem ser menores ou iguais a soma dos" +
+//"\n outros dois lados. Caso os lados formem um triangulo, diga se o mesmo é equilátero (todos" +
+//"\n os lados iguais), isoceles (somente 2 lados são iguais) ou escaleno (os 3 lados são diferentes).");
 
 
-
-
-/*
-Exercício 17 - Faça um algoritmo que leia o tamanho dos lados de um triangulo (lado a, b e c), e 
-então diga se esses lados podem ou não formar um triangulo. Para que os lados
-formem um triângulo, todos os lados devem ser menores ou iguais a soma dos 
-outros dois lados. Caso os lados formem um triangulo, diga se o mesmo é equilátero (todos
-os lados iguais), isoceles (somente 2 lados são iguais) ou escaleno (os 3 lados são diferentes).
-*/
-
-
+///// <summary>
+///// guarda os tamanhos de cada lado do triângulo
+///// </summary>
 //double a, b, c;
+
+///// <summary>
+///// guarda a soma de a e c
+///// </summary>
 //double soma_ac; // para b
+
+///// <summary>
+///// guarda a soma de b e c
+///// </summary>
 //double soma_bc; //para a
+
+///// <summary>
+///// guarda a soma de a e b
+///// </summary>
 //double soma_ab; //para c
 
 //Console.WriteLine("Digite os lados de um triangulo (lado a, b e c): ");
@@ -979,8 +1060,8 @@ os lados iguais), isoceles (somente 2 lados são iguais) ou escaleno (os 3 lados
 
 //if ((a <= soma_bc) && (b <= soma_ac) && (c <= soma_ab))
 //{
-//    Console.WriteLine("Estes lados podem formar um triangulo");
-//    if ((a==b) && (a==c)) // se a=b e c, logo b=c - não precisa colocar
+//    Console.WriteLine("Estes lados formam um triangulo do tipo: ");
+//    if ((a == b) && (a == c)) // se a=b e c, logo b=c - não precisa colocar
 //    {
 //        Console.WriteLine("Equilátero - os tres lados iguais"); // tres lados iguais
 //    }
@@ -993,7 +1074,7 @@ os lados iguais), isoceles (somente 2 lados são iguais) ou escaleno (os 3 lados
 //        Console.WriteLine("Escaleno - os tres lados são diferentes"); // tres lados diferentes    
 //    }
 //}
-//else 
+//else
 //{
 //    Console.WriteLine("Os lados não formam um triangulo");
 //}
@@ -1001,7 +1082,7 @@ os lados iguais), isoceles (somente 2 lados são iguais) ou escaleno (os 3 lados
 
 
 
-
+////exercicio18 = pronto
 //Console.WriteLine("Exercício 18 - Escreva um algoritmo que leia 3 valores pelo teclado" +
 //    "\n e então informe qual o maior deles.");
 
@@ -1053,7 +1134,7 @@ os lados iguais), isoceles (somente 2 lados são iguais) ou escaleno (os 3 lados
 //if (n1 == n2 && n2 == n3 && n3 == n1)
 //{
 //    maior = n1;// guarda qualquer valor pq é tudo igual
-//    Console.WriteLine("Os números digitados são iguais");    
+//    Console.WriteLine("Os números digitados são iguais");
 //}
 //else
 //{
@@ -1061,69 +1142,65 @@ os lados iguais), isoceles (somente 2 lados são iguais) ou escaleno (os 3 lados
 //}
 
 
+//exercicio19 = pronto
+Console.WriteLine("Exercício 19 - Ajuste o exercício 3 de maneira que mostre os valores" +
+    "\n informados em ordem crescente.\n");
 
+Console.WriteLine("Exercício 3 - Escrever um algoritmo para ler quatro valores inteiros," +
+    "\n calcular a sua média, e escrever na tela os que são superiores à média.\n");
 
+/// <summary>
+/// guarda quatro números inteiros digitado pelo usuário
+/// </summary>
+int num1, num2, num3, num4;
 
+/// <summary>
+/// guarda o valor da media calculada
+/// </summary>
+double media;
 
+//int[] vetor = new int[4]; ou
+int[] vetor;
+vetor = new int[4];
 
-////exercicio19
-//Console.WriteLine("Exercício 19 - Ajuste o exercício 3 de maneira que mostre os valores" +
-//    "\n informados em ordem crescente.\n");
+Console.WriteLine("Digite 4 números inteiros: ");
+num1 = int.Parse(Console.ReadLine());
+num2 = int.Parse(Console.ReadLine());
+num3 = int.Parse(Console.ReadLine());
+num4 = int.Parse(Console.ReadLine());
 
-//Console.WriteLine("Exercício 3 - Escrever um algoritmo para ler quatro valores inteiros," +
-//    "\n calcular a sua média, e escrever na tela os que são superiores à média.\n");
+media = (num1 + num2 + num3 + num4) / 4;
+Console.WriteLine("A média é: " + media);
+Console.WriteLine("Os valores superiores à media são: ");
+if (num1 > media)
+{
+    Console.WriteLine(num1);
+}
+if (num2 > media)
+{
+    Console.WriteLine(num2);
+}
+if (num3 > media)
+{
+    Console.WriteLine(num3);
+}
+if (num4 > media)
+{
+    Console.WriteLine(num4);
+}
 
-///// <summary>
-///// guarda quatro números inteiros digitado pelo usuário
-///// </summary>
-//int num1, num2, num3, num4;
+vetor[0] = num1;
+vetor[1] = num2;
+vetor[2] = num3;
+vetor[3] = num4;
 
-///// <summary>
-///// guarda o valor da media calculada
-///// </summary>
-//double media;
+Array.Sort(vetor);
 
-//int[] vetor = new int[4];
-////int[] vetor = new int[4];
-
-//Console.WriteLine("Digite 4 números inteiros: ");
-//num1 = int.Parse(Console.ReadLine());
-//num2 = int.Parse(Console.ReadLine());
-//num3 = int.Parse(Console.ReadLine());
-//num4 = int.Parse(Console.ReadLine());
-
-//media = (num1 + num2 + num3 + num4) / 4;
-//Console.WriteLine("A média é: " + media);
-//Console.WriteLine("Os valores superiores à media são: ");
-//if (num1 > media)
-//{
-//    Console.WriteLine(num1);
-//}
-//if (num2 > media)
-//{
-//    Console.WriteLine(num2);
-//}
-//if (num3 > media)
-//{
-//    Console.WriteLine(num3);
-//}
-//if (num4 > media)
-//{
-//    Console.WriteLine(num4);
-//}
-
-//vetor[0] = num1;
-//vetor[1] = num2;
-//vetor[2] = num3;
-//vetor[3] = num4;
-
-//Array.Sort(vetor);
-
-//Console.WriteLine("Os números informados em ordem crescente são: ");
-//Console.WriteLine(vetor[0]);
-//Console.WriteLine(vetor[1]);
-//Console.WriteLine(vetor[2]);
-//Console.WriteLine(vetor[3]);
+Console.WriteLine("Os números informados em ordem crescente são: ");
+Console.WriteLine(vetor[0]);
+Console.WriteLine(vetor[1]);
+Console.WriteLine(vetor[2]);
+Console.WriteLine(vetor[3]);
 
 
 
@@ -1169,76 +1246,90 @@ os lados iguais), isoceles (somente 2 lados são iguais) ou escaleno (os 3 lados
 //}
 
 
-/* exercicio20
-Exercício 20 - Escreva um algoritmo para o jogo de adivinhação do número secreto. 
-O jogador tem 3 chances e recebe dicas do tipo “é maior” ou “é menor”. 
-plus: você pode gerar o número de forma randomica (função random c#).
- * 
- */
-
-Random randNum = new Random();
-int num_aposta, num_secreto;
-
-num_secreto = randNum.Next();
-num_secreto = 2520;
-
-Console.WriteLine("Nùmero secreto: " + num_secreto);
-
-//primeira tentativa
-Console.WriteLine("Caro jogador, fale qual é seu número de aposta:");
-num_aposta = int.Parse(Console.ReadLine());
-
-if (num_secreto == num_aposta)
-{
-    Console.WriteLine("Acertou BINGOOOO!!!!");
-}
-else if (num_secreto < num_aposta)
-{
-    Console.WriteLine("DICA: O número secreto é MENOR que seu número apostado.");
-}
-else
-{
-    Console.WriteLine("DICA: O número secreto é MAIOR que seu número apostado.");
-}
 
 
-//segunda tentativa
-if (num_aposta != num_secreto)
-{
-    Console.WriteLine("Tente mais uma vez: ");
-    num_aposta = int.Parse(Console.ReadLine());
+////exercicio20 - pronto
+//Console.WriteLine("\n  Exercício 20 - Escreva um algoritmo para o jogo de adivinhação do número secreto." +
+//"\n O jogador tem 3 chances e recebe dicas do tipo “é maior” ou “é menor”. " +
+//"\n plus: você pode gerar o número de forma randomica (função random c#).");
 
-    if (num_secreto == num_aposta)
-    {
-        Console.WriteLine("Acertou BINGOOOO!!!!");
-    }
-    else if (num_secreto < num_aposta)
-    {
-        Console.WriteLine("DICA: O número secreto é MENOR que seu número apostado.");
-    }
-    else
-    {
-        Console.WriteLine("DICA: O número secreto é MAIOR que seu número apostado.");
-    }
-}
+///// <summary>
+///// gera um número aleatório de 1 a 50
+///// </summary>
+//Random randNum = new Random();
 
-//terceira e ultima tentativa
-if (num_aposta != num_secreto)
-{
-    Console.WriteLine("Tente pela última vez: ");
-    num_aposta = int.Parse(Console.ReadLine());
+///// <summary>
+///// guarda o número de aposta do jogador
+///// </summary>
+//int num_aposta;
 
-    if (num_secreto == num_aposta)
-    {
-        Console.WriteLine("Acertou BINGOOOO!!!!");
-    }
-    else
-    {
-        Console.WriteLine("Perdeu");
-    }
-}
+///// <summary>
+///// guarda o número secreto gerado
+///// </summary>
+//int num_secreto;
 
-Console.WriteLine("FIM JOGO!");
+//num_secreto = randNum.Next(1,50);
+
+////se for necessário ver o número secreto
+////Console.WriteLine("Nùmero secreto: " + num_secreto);
+
+//Console.WriteLine("Jogo de adivinhação - aposte em um número de 1 a 50.");
+
+////primeira tentativa
+//Console.WriteLine("Diga, qual é seu número de aposta:");
+//num_aposta = int.Parse(Console.ReadLine());
+
+//if (num_secreto == num_aposta)
+//{
+//    Console.WriteLine("Acertou BINGOOOO!!!!");
+//}
+//else if (num_secreto < num_aposta)
+//{
+//    Console.WriteLine("DICA: O número secreto é MENOR que seu número apostado.");
+//}
+//else
+//{
+//    Console.WriteLine("DICA: O número secreto é MAIOR que seu número apostado.");
+//}
+
+
+////segunda tentativa
+//if (num_aposta != num_secreto)
+//{
+//    Console.WriteLine("Tente mais uma vez: ");
+//    num_aposta = int.Parse(Console.ReadLine());
+
+//    if (num_secreto == num_aposta)
+//    {
+//        Console.WriteLine("Acertou BINGOOOO!!!!");
+//    }
+//    else if (num_secreto < num_aposta)
+//    {
+//        Console.WriteLine("DICA: O número secreto é MENOR que seu número apostado.");
+//    }
+//    else
+//    {
+//        Console.WriteLine("DICA: O número secreto é MAIOR que seu número apostado.");
+//    }
+//}
+
+////terceira e ultima tentativa
+//if (num_aposta != num_secreto)
+//{
+//    Console.WriteLine("Tente pela última vez: ");
+//    num_aposta = int.Parse(Console.ReadLine());
+
+//    if (num_secreto == num_aposta)
+//    {
+//        Console.WriteLine("Acertou BINGOOOO!!!!");
+//    }
+//    else
+//    {
+//        Console.WriteLine("Perdeu");
+//    }
+//}
+
+//Console.WriteLine("FIM JOGO!");
 
 
 
