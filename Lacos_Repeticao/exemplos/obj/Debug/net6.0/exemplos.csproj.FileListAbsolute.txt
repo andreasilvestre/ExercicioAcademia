@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\exemplos\bin\Debug\net6.0\exemplos.exe
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\exemplos\bin\Debug\net6.0\exemplos.deps.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\exemplos\bin\Debug\net6.0\exemplos.runtimeconfig.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\exemplos\bin\Debug\net6.0\exemplos.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\exemplos\bin\Debug\net6.0\exemplos.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\exemplos\obj\Debug\net6.0\exemplos.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\exemplos\obj\Debug\net6.0\exemplos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\exemplos\obj\Debug\net6.0\exemplos.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\exemplos\obj\Debug\net6.0\exemplos.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\exemplos\obj\Debug\net6.0\exemplos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\exemplos\obj\Debug\net6.0\exemplos.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\exemplos\obj\Debug\net6.0\refint\exemplos.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\exemplos\obj\Debug\net6.0\exemplos.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\exemplos\obj\Debug\net6.0\exemplos.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\exemplos\obj\Debug\net6.0\ref\exemplos.dll
