@@ -693,7 +693,7 @@ Quantas pessoas não tem filhos.
 //mediaNota = mediaNota / listaNota.Count;
 //listaNota.Sort();// ordena a lista em ordem crescente, de 0 a totalAlunos
 
-//Console.WriteLine("Nota mais alta: " + listaNota[listaNota.Count-1]);
+//Console.WriteLine("Nota mais alta: " + listaNota[listaNota.Count - 1]);
 //Console.WriteLine("Nota mais baixa: " + listaNota[0]);
 //Console.WriteLine("Total de alunos: " + listaNota.Count);
 //Console.WriteLine("A média aritmética da turma é: " + mediaNota);
@@ -748,7 +748,15 @@ Quantas pessoas não tem filhos.
 //Considerar nota 7,0 como mínima para aprovação.
 //*/
 
+
+///// <summary>
+///// Lista contendo as 4 notas de um aluno qualquer
+///// </summary>
 //List<double> listaNota = new List<double>();
+
+///// <summary>
+///// guarda a media ponderada calculada
+///// </summary>
 //double mediaPonderada;
 
 //for (int i = 0; i < 4; i++)
@@ -777,12 +785,21 @@ Quantas pessoas não tem filhos.
 //}
 
 
-///*
-//16: Ler um número N qualquer menor ou igual a 50 e apresentar o valor obtido da multiplicação sucessiva de N 
-//por 3 enquanto o produto for menor que 250 (N*3; N*3*3; N*3*3*3; etc).
+//// EXERCICIO16
+///*16: Ler um número N qualquer menor ou igual a 50 e apresentar o valor obtido da multiplicação sucessiva de N 
+//por 3 enquanto o produto for menor que 250 (N*3; N * 3 * 3; N * 3 * 3 * 3; etc).
 //*/
+
+///// <summary>
+///// guarda o número digitado pelo usuário de 0 a 50
+///// </summary>
 //int numero = 0; // de 0 a 50 por exemplo
+
+///// <summary>
+///// guarda o resultado da multiplicação sucessiva por 3
+///// </summary>
 //int produto = 0; //numero * 3, numero * 3 * 3, 
+
 //do
 //{
 //    Console.WriteLine("Digite um número de 1 a 50: ");
@@ -801,32 +818,159 @@ Quantas pessoas não tem filhos.
 
 
 
+
+
+///*EXERCICIO17 - ERRADA - DUVIDAS PENDENCIA
+//17: Apresentar os quadrados dos números inteiros de 15 a 200.
+//*/
+
+//for (int i = 15; i <= 200; i++)
+//{
+//    Console.WriteLine((i*i));
+//}
+
+
+
+///* EXERCICIO18
+//18: Elaborar um programa que apresente o valor de uma potência de uma base qualquer elevada a um expoente 
+//qualquer, ou seja, NM.
+//*/
+
+///// <summary>
+///// guarda a base da potencia a ser calculada
+///// </summary>
+//double numero1;
+
+///// <summary>
+///// guarda o expoente da potencia a ser calculada
+///// </summary>
+//double numero2;
+
+///// <summary>
+///// guarda o resultado da potência
+///// </summary>
+//double potencia; //potencia = base elevada ao expoente.
+
+
+//Console.WriteLine("Digite a base e o expoente da sua potência: ");
+//numero1 = double.Parse(Console.ReadLine());
+//numero2 = double.Parse(Console.ReadLine());
+
+//potencia = Math.Pow(numero1, numero2);
+
+//Console.WriteLine("A potência é: " + potencia.ToString("F"));
+
+
+///* EXERCICIO19
+//19. A prefeitura de uma cidade fez uma pesquisa entre seus habitantes, coletando dados sobre o salário e número 
+//de filhos. A prefeitura deseja saber: 
+
+//a) média do salário da população;
+//b) média do número de filhos;
+//c) maior salário;
+//d) percentual de pessoas com salário até R$ 100,00.
+//O final da leitura de dados se dará com a entrada de um salário negativo.
+//*/
+
+///// <summary>
+///// guarda numa lista o valor do salário de cada pessoa
+///// </summary>
+//List<double> salario = new List<double>(); // se < 0 sair do sistema
+
+///// <summary>
+///// guarda numa lista a quantidade de filhos de cada pessoa
+///// </summary>
+//List<int> numeroFilhos = new List<int>();
+
+///// <summary>
+///// guarda a media de salário informados
+///// </summary>
+//double mediaSalario = 0;
+
+///// <summary>
+///// guarda a média de filhos por casal
+///// </summary>
+//double mediaFilhos = 0;
+
+///// <summary>
+///// guarda o maior salário da lista pesquisada
+///// </summary>
+//double maiorSalario;
+
+///// <summary>
+///// guarda a qauntidade de pessoas que receb até R$ 100,00
+///// </summary>
+//double salarioAte100 = 0; // porcentagem %
+
+///// <summary>
+/////  variavel que auxilia para que o programa encerre quando o salário for negativo
+///// </summary>
+//double auxiliarSalario = 1; // variavel auxiliar
+
+//Console.Clear();
+
+//for (int i = 0; auxiliarSalario >= 0; i++)
+//{
+//    Console.WriteLine("Digite um salário: [Para terminar, digite salário NEGATIVO.] ");
+//    salario.Add(double.Parse(Console.ReadLine()));
+//    auxiliarSalario = salario[i];
+
+//    if (salario[i] < 0)
+//    {
+//        salario.Remove(salario[i]); 
+//        break;
+//    }
+//    else
+//    {
+//        Console.WriteLine("Digite o número de filhos: ");
+//        numeroFilhos.Add(int.Parse(Console.ReadLine()));
+
+//        if (salario[i] <= 100)
+//        {
+//            salarioAte100++; //contar quantas pessoas recebe até 100 reais
+//        }
+//    }
+//}
+
+//Console.WriteLine("Total de leituras/pesquisa: " + salario.Count);
+
+//for (int i = 0; i < salario.Count; i++)
+//{
+//    mediaSalario = mediaSalario + salario[i];
+//    mediaFilhos = mediaFilhos + numeroFilhos[i];
+
+//}
+
+//mediaSalario = mediaSalario / salario.Count;
+//mediaFilhos = mediaFilhos / numeroFilhos.Count;
+//salario.Sort();
+//salarioAte100 = (salarioAte100 / salario.Count) * 100;
+//maiorSalario = salario[salario.Count - 1];
+
+//Console.WriteLine("Salário Médio: " + mediaSalario.ToString("C"));
+//Console.WriteLine("Média de filhos: " + Math.Round(mediaFilhos));
+//Console.WriteLine("Maior salário: " + maiorSalario.ToString("C"));
+//Console.WriteLine("Salário até R$ 100,00: " + salarioAte100.ToString("F") + "%");
+
+
 /*
-17: Apresentar os quadrados dos números inteiros de 15 a 200.
-
-18: Elaborar um programa que apresente o valor de uma potência de uma base qualquer elevada a um expoente 
-qualquer, ou seja, NM.
-
-19. A prefeitura de uma cidade fez uma pesquisa entre seus habitantes, coletando dados sobre o salário e número 
-de filhos. A prefeitura deseja saber: 
- 
-a) média do salário da população;
-b) média do número de filhos;
-c) maior salário;
-d) percentual de pessoas com salário até R$ 100,00.
-O final da leitura de dados se dará com a entrada de um salário negativo.
-
-20. Foi realizada uma pesquisa de algumas características físicas da população de uma certa região, a qual coletou os seguintes dados referentes a cada habitante para serem analisados:
+20. Foi realizada uma pesquisa de algumas características físicas da população de uma 
+certa região, a qual coletou os seguintes dados referentes a cada habitante para 
+serem analisados:
 - sexo (masculino e feminino)
 - cor dos olhos (azuis, verdes ou castanhos)
 - cor dos cabelos ( louros, castanhos, pretos)
 - idade 
  
-21. Faça um algoritmo que determine e escreva: 
+Faça um algoritmo que determine e escreva: 
  
 - a maior idade dos habitantes
 - a quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos inclusive
 e que tenham olhos verdes e cabelos louros.
 O final do conjunto de habitantes é reconhecido pelo valor -1 entrada como idade.
- 
  */
+
+//string sexo;
+//string corOlhos;
+//string corCabelos;
+//int idade;
