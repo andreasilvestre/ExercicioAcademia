@@ -172,11 +172,11 @@ Deseja informar outro número (s/n)? N
 //} while (outroNumero == 'S' || outroNumero == 's');
 
 
-/* EXRECICIO 03 - NUMERO PRIMO - PENDENTE DUVIDAS
- 3. Fazer um laço (repetição) que fique solicitando números ao usuário. 
-Se o usuário digitar 0 o programa em VS deve parar. 
-Caso contrário, o programa em VS deve informar se o número é par ou ímpar e se ele é um número primo.   
- */
+///* EXRECICIO 03 - NUMERO PRIMO - PENDENTE DUVIDAS
+// 3. Fazer um laço (repetição) que fique solicitando números ao usuário. 
+//Se o usuário digitar 0 o programa em VS deve parar. 
+//Caso contrário, o programa em VS deve informar se o número é par ou ímpar e se ele é um número primo.   
+// */
 
 
 ///// <summary>
@@ -194,38 +194,54 @@ Caso contrário, o programa em VS deve informar se o número é par ou ímpar e 
 
 //while (numero != 0)
 //{
-//    Console.WriteLine("Digite um numero qualquer: ");
+//    Console.WriteLine("CONJUNTO DE PRIMO 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41," +
+//               "\n 43, 47,53, 59, 61, 67, 71, 73, 79, 83, 89 e 97 " +
+//               "\n são os únicos números primos menores que 100.");
+//    Console.WriteLine("Digite um numero qualquer: [ 0 para sair ]");
 //    numero = double.Parse(Console.ReadLine());
 
-//    if (numero != 0)
+//    if (numero == 0)
 //    {
-//        //verifica par ou impar
-//        if (numero % 2 == 0)
+//        break;
+//    }
+
+//    //verifica par ou impar
+//    if (numero % 2 == 0)
+//    {
+//        Console.WriteLine("Número Par");
+//    }
+//    else
+//    {
+//        Console.WriteLine("Número Ìmpar");
+//    }
+
+//    if (numero > 1)
+//    {
+//        if (numero == 2 || numero == 3 || numero == 5 || numero == 7)
 //        {
-//            Console.WriteLine("Número Par");
+//            Console.WriteLine("Número Primo");
 //        }
 //        else
 //        {
-//            Console.WriteLine("Número Ìmpar");
-//        }
+//            if ((numero % 2 == 0) || (numero % 5 == 0) || (numero % 3 == 0) || (numero % 7 == 0))
 
-//        //verifica se é primo ??? duvida pendencia
-//        //testar 7
-//        if ((numero > 1 )
-//            && (numero%2 != 0) && (numero%5 != 0) && (numero % 3 != 0) && (numero % 7 != 0))
+//                Console.WriteLine("Não é primo");
 
-
-
-//        if (primo)
-//        {
-//            Console.WriteLine("Número Primo");
-//            Console.WriteLine("os números 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41," +
-//                "\n 43, 47,53, 59, 61, 67, 71, 73, 79, 83, 89 e 97 " +
-//                "\n são os únicos números primos menores que 100.");
+//            else
+//            {
+//                Console.WriteLine("Número Primo");
+//                //Console.WriteLine("os números 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41," +
+//                //    "\n 43, 47,53, 59, 61, 67, 71, 73, 79, 83, 89 e 97 " +
+//                //    "\n são os únicos números primos menores que 100.");
+//            }
 //        }
 //    }
+
 //}
 //Console.WriteLine("Acabou a brincadeira!!!");
+
+
+
 
 ///* EXERCICIO04
 // 4. Em uma cidadezinha do interior há dois candidatos para prefeito (JOAO e ZECA). 
