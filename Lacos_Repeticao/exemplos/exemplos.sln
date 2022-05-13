@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exemplos", "exemplos.csproj", "{4C5AD803-D5A6-4121-817E-678A11A3F351}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lacos_Repeticao", "Lacos_Repeticao.csproj", "{4C5AD803-D5A6-4121-817E-678A11A3F351}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

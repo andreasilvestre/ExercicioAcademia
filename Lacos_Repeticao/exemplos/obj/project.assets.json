@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\Lacos_Repeticao\\exemplos\\exemplos.csproj",
-      "projectName": "exemplos",
-      "projectPath": "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\Lacos_Repeticao\\exemplos\\exemplos.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\Lacos_Repeticao\\exemplos\\Lacos_Repeticao.csproj",
+      "projectName": "Lacos_Repeticao",
+      "projectPath": "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\Lacos_Repeticao\\exemplos\\Lacos_Repeticao.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\Lacos_Repeticao\\exemplos\\obj\\",
       "projectStyle": "PackageReference",
