@@ -986,7 +986,56 @@ e que tenham olhos verdes e cabelos louros.
 O final do conjunto de habitantes é reconhecido pelo valor -1 entrada como idade.
  */
 
-//string sexo;
-//string corOlhos;
-//string corCabelos;
 //int idade;
+List<int> idade = new List<int>();
+List<string> sexo = new List<string>(); //masculino/feminino
+List<string> corOlhos= new List<string>(); //azuis, verdes ou castanhos
+List<string> corCabelos = new List<string>(); //louros, castanhos, pretos
+
+int maiorIdade; //o habitante mais velho
+int condicao2 = 0;//retorna tudo escrito abaixo
+//a quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos inclusive
+//e que tenham olhos verdes e cabelos louros.
+
+int totalPesquisa = 2000;  // atribuir um valor qualquer para total máximo de pesquisa
+
+//pendencia - estudar duvida - tudo junto
+//List<(int id, string sex, string corOlhos)> sex = new List<(int id, string sex, string corOlhos)>();
+
+for (int i = 0; i < totalPesquisa; i++)
+{
+
+    Console.WriteLine("Digite os dados da pesquisa: ");
+    
+    Console.Write("Idade [-1 para Sair]: ");
+    idade.Add(int.Parse(Console.ReadLine()));
+   
+    if (idade[i] == -1)
+    {
+        break;
+    }
+
+    Console.Write("Sexo  [feminino/masculino]: ");
+    sexo.Add(Console.ReadLine());
+
+    Console.Write("Cor dos olhos  [azuis, verdes ou castanhos]: ");
+    corOlhos.Add(Console.ReadLine());
+
+    Console.Write("Cor dos cabelos   [louros, castanhos, pretos]: ");
+    corCabelos.Add(Console.ReadLine());
+
+    //a quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos inclusive
+    //e que tenham olhos verdes e cabelos louros.
+    if ((sexo[i] == "feminino") && (idade[i] >= 18) && (idade[i] <= 35) && (corOlhos[i] == "verdes") && (corCabelos[i] == "louros"))
+    {
+        condicao2++; 
+    }
+}
+
+idade.Sort();
+
+//a maior idade dos habitantes
+//- a quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos inclusive
+//e que tenham olhos verdes e cabelos louros.
+Console.WriteLine("Maior idade: " + idade[idade.Count-1]);
+Console.WriteLine("Mulheres de 18 a 35 anos, loiras de olhos verdes: " + condicao2);
