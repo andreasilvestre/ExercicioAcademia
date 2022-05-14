@@ -172,7 +172,7 @@ Deseja informar outro número (s/n)? N
 //} while (outroNumero == 'S' || outroNumero == 's');
 
 
-///* EXRECICIO 03 - NUMERO PRIMO - PENDENTE DUVIDAS
+///* EXRECICIO 03 - NUMERO PRIMO - ver próxima solução do professor
 // 3. Fazer um laço (repetição) que fique solicitando números ao usuário. 
 //Se o usuário digitar 0 o programa em VS deve parar. 
 //Caso contrário, o programa em VS deve informar se o número é par ou ímpar e se ele é um número primo.   
@@ -239,6 +239,62 @@ Deseja informar outro número (s/n)? N
 
 //}
 //Console.WriteLine("Acabou a brincadeira!!!");
+
+
+///* EXRECICIO 03 - NUMERO PRIMO - solução do prof Ricardo - muito boa parabéns!
+// 3. Fazer um laço (repetição) que fique solicitando números ao usuário. 
+//Se o usuário digitar 0 o programa em VS deve parar. 
+//Caso contrário, o programa em VS deve informar se o número é par ou ímpar e se ele é um número primo.   
+// */
+
+///// <summary>
+///// guarda a quantidade que o número digitado é divisível, por exemplo número primo é divisível apenas duas vezes,
+///// pelo número 1 e por ele mesmo. Esta é a regra de número primo. Divisível é quando tem resto 0.
+///// </summary>
+//int contador = 0;
+
+///// <summary>
+///// guarda o número digitado pelo usuário
+///// </summary>
+//double numero;
+
+//for (int i = 1; i != 0; i++)
+//{
+//    Console.WriteLine("Digite um número qualquer: [Para sair 0]");
+//    numero = double.Parse(Console.ReadLine());
+//    if (numero == 0)
+//    {
+//        break;
+//    }
+//    if (numero % 2 == 0)
+//    {
+//        Console.WriteLine("Número Par");
+//    }
+//    else
+//    {
+//        Console.WriteLine("Número Ímpar");
+//    }
+//    //divide numero até chegar no número 1 para saber se há somente duas divisoes: por 1 e por ele mesmo
+//    //o número 1 não é primo, pq divide somente por ele mesmo
+//    contador = 0;
+//    for (double i2 = numero; i2 <= numero; i2--)
+//    {
+//        //Console.WriteLine("Verificando se é divisivel: " + i2);
+//        if (numero % i2 == 0)
+//        {
+//            contador++;
+//            //Console.WriteLine("contador: " + contador);
+//        }
+//        if (i2 == 1)
+//        {
+//            break;
+//        }
+//    }
+//    if (contador == 2)  //divisivel por 1 e por ele mesmo
+//    {
+//        Console.WriteLine("Número Primo");
+//    }
+//}
 
 
 
@@ -1116,31 +1172,31 @@ Quantas pessoas não tem filhos.
 
 
 
-/*  EXERCICIO4-04  - TESTAR
-4 . Faça um algoritmo que leia uma lista de números inteiros positivos terminada pelo número 0 (zero). 
-Ao final, o algoritmo deve mostrar a média aritmética de todos os números lidos (excluindo o zero).
-*/
+///*  EXERCICIO4-04  - TESTAR - PENDENCIA - FALTA TERMINAR
+//4 . Faça um algoritmo que leia uma lista de números inteiros positivos terminada pelo número 0 (zero). 
+//Ao final, o algoritmo deve mostrar a média aritmética de todos os números lidos (excluindo o zero).
+//*/
 
-//List<int> listaNumeros = new List<int>();//precisa ser string pq irei descartar o ultimo caracter=0
-string auxiliar;
-int auxiliar2;
-double media = 0;
+////List<int> listaNumeros = new List<int>();//precisa ser string pq irei descartar o ultimo caracter=0
+//string auxiliar;
+//int auxiliar2;
+//double media = 0;
 
-for (int i = 0; i <= 10; i++)
-{
-    Console.Write("Digite um número inteiro e positivo: ");
-    auxiliar = Console.ReadLine();
-    
-    auxiliar = auxiliar.Substring(0, auxiliar.Length - 1);
-    auxiliar2 = int.Parse(auxiliar);
-    Console.WriteLine(auxiliar2);
+//for (int i = 0; i <= 10; i++)
+//{
+//    Console.Write("Digite um número inteiro e positivo: ");
+//    auxiliar = Console.ReadLine();
 
-    //listaNumeros.Add(auxiliar2);
-    media = media + Convert.ToDouble(auxiliar2);
-}
+//    auxiliar = auxiliar.Substring(0, auxiliar.Length - 1);
+//    auxiliar2 = int.Parse(auxiliar);
+//    Console.WriteLine(auxiliar2);
 
-media = media / 10;
-Console.WriteLine("Média: " + media);
+//    //listaNumeros.Add(auxiliar2);
+//    media = media + Convert.ToDouble(auxiliar2);
+//}
+
+//media = media / 10;
+//Console.WriteLine("Média: " + media);
 
 //REFAZER NUMERO PRIMO - o 03
 
@@ -1158,15 +1214,74 @@ Console.WriteLine("Média: " + media);
 //}
 
 
-/*
-EXERCICIO4-06
-6.	Faça um programa que leia um número n e imprima se ele é primo ou não. 
-(um número primo tem apenas 2 divisores: 1 e ele mesmo! O número 1 não é primo!!!)
+///*
+//EXERCICIO4-06
+//6.	Faça um programa que leia um número n e imprima se ele é primo ou não. 
+//(um número primo tem apenas 2 divisores: 1 e ele mesmo! O número 1 não é primo!!!)
+//*/
 
-EXERCICIO4-07
-7.	Os dois primeiros números da sequência de Fibonacci são 0 e 1. Os próximos números dessa 
-sequência podem ser calculados como sendo a soma dos dois números anteriores. Os primeiros
-números de Fibonacci são: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, … Escreva um algoritmo 
-que leia um número pelo teclado N, e então mostre os N primeiros números da sequência de Fibonacci.
- 
- */
+////numero primo - de novo para ficar craque
+//int contador = 0;
+//double numero;
+
+
+//Console.WriteLine("Digite um número qualquer: ");
+//numero = double.Parse(Console.ReadLine());
+
+//for (double i = numero; i <= numero; i--)
+//{
+//    if (numero%i == 0)
+//    {
+//        contador++;
+//    }
+//    if (i == 1)
+//    {
+//        break;
+//    }
+//}
+
+//if (contador == 2)
+//{
+//    Console.WriteLine("Número primo");
+//}
+//else
+//{
+//    Console.WriteLine("Não é primo");
+//}
+
+
+
+///*
+//EXERCICIO4-07
+//7.	Os dois primeiros números da sequência de Fibonacci são 0 e 1. Os próximos números dessa 
+//sequência podem ser calculados como sendo a soma dos dois números anteriores. Os primeiros
+//números de Fibonacci são: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, … Escreva um algoritmo 
+//que leia um número pelo teclado N, e então mostre os N primeiros números da sequência de Fibonacci.
+// */
+
+////escrever a sequencia até o número informado
+
+//int numero;
+//List<int> sequenciaFibonacci = new List<int>();
+
+///// <summary>
+///// guarda a soma dos dois números  anteriores da lista
+///// </summary>
+//int proximoNumero;
+
+//Console.WriteLine("Digite um número qualquer: ");
+//numero = int.Parse(Console.ReadLine());
+
+//sequenciaFibonacci.Add(0);// posição 0
+//sequenciaFibonacci.Add(1);// posição 1
+//for (int i = 2; i <= numero; i++)
+//{
+//    //Fn = Fn - 1 + Fn - 2
+//    proximoNumero = sequenciaFibonacci[i - 1] + sequenciaFibonacci[i - 2];
+//    sequenciaFibonacci.Add(proximoNumero);
+//}
+
+//for (int i = 0; i < sequenciaFibonacci.Count; i++)
+//{
+//    Console.WriteLine(sequenciaFibonacci[i]);
+//}
