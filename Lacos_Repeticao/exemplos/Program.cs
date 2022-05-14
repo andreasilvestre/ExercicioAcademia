@@ -969,73 +969,204 @@ Quantas pessoas não tem filhos.
 //Console.WriteLine("Salário até R$ 100,00: " + salarioAte100.ToString("F") + "%");
 
 
-/*
-20. Foi realizada uma pesquisa de algumas características físicas da população de uma 
-certa região, a qual coletou os seguintes dados referentes a cada habitante para 
-serem analisados:
-- sexo (masculino e feminino)
-- cor dos olhos (azuis, verdes ou castanhos)
-- cor dos cabelos ( louros, castanhos, pretos)
-- idade 
- 
-Faça um algoritmo que determine e escreva: 
- 
-- a maior idade dos habitantes
-- a quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos inclusive
-e que tenham olhos verdes e cabelos louros.
-O final do conjunto de habitantes é reconhecido pelo valor -1 entrada como idade.
- */
+///*  EXERCICIO20
+//20. Foi realizada uma pesquisa de algumas características físicas da população de uma 
+//certa região, a qual coletou os seguintes dados referentes a cada habitante para 
+//serem analisados:
+//- sexo (masculino e feminino)
+//- cor dos olhos (azuis, verdes ou castanhos)
+//- cor dos cabelos ( louros, castanhos, pretos)
+//- idade 
 
-//int idade;
-List<int> idade = new List<int>();
-List<string> sexo = new List<string>(); //masculino/feminino
-List<string> corOlhos= new List<string>(); //azuis, verdes ou castanhos
-List<string> corCabelos = new List<string>(); //louros, castanhos, pretos
+//Faça um algoritmo que determine e escreva: 
 
-int maiorIdade; //o habitante mais velho
-int condicao2 = 0;//retorna tudo escrito abaixo
-//a quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos inclusive
-//e que tenham olhos verdes e cabelos louros.
-
-int totalPesquisa = 2000;  // atribuir um valor qualquer para total máximo de pesquisa
-
-//pendencia - estudar duvida - tudo junto
-//List<(int id, string sex, string corOlhos)> sex = new List<(int id, string sex, string corOlhos)>();
-
-for (int i = 0; i < totalPesquisa; i++)
-{
-
-    Console.WriteLine("Digite os dados da pesquisa: ");
-    
-    Console.Write("Idade [-1 para Sair]: ");
-    idade.Add(int.Parse(Console.ReadLine()));
-   
-    if (idade[i] == -1)
-    {
-        break;
-    }
-
-    Console.Write("Sexo  [feminino/masculino]: ");
-    sexo.Add(Console.ReadLine());
-
-    Console.Write("Cor dos olhos  [azuis, verdes ou castanhos]: ");
-    corOlhos.Add(Console.ReadLine());
-
-    Console.Write("Cor dos cabelos   [louros, castanhos, pretos]: ");
-    corCabelos.Add(Console.ReadLine());
-
-    //a quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos inclusive
-    //e que tenham olhos verdes e cabelos louros.
-    if ((sexo[i] == "feminino") && (idade[i] >= 18) && (idade[i] <= 35) && (corOlhos[i] == "verdes") && (corCabelos[i] == "louros"))
-    {
-        condicao2++; 
-    }
-}
-
-idade.Sort();
-
-//a maior idade dos habitantes
+//- a maior idade dos habitantes
 //- a quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos inclusive
 //e que tenham olhos verdes e cabelos louros.
-Console.WriteLine("Maior idade: " + idade[idade.Count-1]);
-Console.WriteLine("Mulheres de 18 a 35 anos, loiras de olhos verdes: " + condicao2);
+//O final do conjunto de habitantes é reconhecido pelo valor -1 entrada como idade.
+// */
+
+////int idade;
+//List<int> idade = new List<int>();
+//List<string> sexo = new List<string>(); //masculino/feminino
+//List<string> corOlhos= new List<string>(); //azuis, verdes ou castanhos
+//List<string> corCabelos = new List<string>(); //louros, castanhos, pretos
+
+//int maiorIdade; //o habitante mais velho
+//int condicao2 = 0;//retorna tudo escrito abaixo
+////a quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos inclusive
+////e que tenham olhos verdes e cabelos louros.
+
+//int totalPesquisa = 2000;  // atribuir um valor qualquer para total máximo de pesquisa
+
+////pendencia - estudar duvida - tudo junto
+////List<(int id, string sex, string corOlhos)> sex = new List<(int id, string sex, string corOlhos)>();
+
+//for (int i = 0; i < totalPesquisa; i++)
+//{
+
+//    Console.WriteLine("Digite os dados da pesquisa: ");
+
+//    Console.Write("Idade [-1 para Sair]: ");
+//    idade.Add(int.Parse(Console.ReadLine()));
+
+//    if (idade[i] == -1)
+//    {
+//        break;
+//    }
+
+//    Console.Write("Sexo  [feminino/masculino]: ");
+//    sexo.Add(Console.ReadLine());
+
+//    Console.Write("Cor dos olhos  [azuis, verdes ou castanhos]: ");
+//    corOlhos.Add(Console.ReadLine());
+
+//    Console.Write("Cor dos cabelos   [louros, castanhos, pretos]: ");
+//    corCabelos.Add(Console.ReadLine());
+
+//    //a quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos inclusive
+//    //e que tenham olhos verdes e cabelos louros.
+//    if ((sexo[i] == "feminino") && (idade[i] >= 18) && (idade[i] <= 35) && (corOlhos[i] == "verdes") && (corCabelos[i] == "louros"))
+//    {
+//        condicao2++; 
+//    }
+//}
+
+//idade.Sort();
+
+////a maior idade dos habitantes
+////- a quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos inclusive
+////e que tenham olhos verdes e cabelos louros.
+//Console.WriteLine("Maior idade: " + idade[idade.Count-1]);
+//Console.WriteLine("Mulheres de 18 a 35 anos, loiras de olhos verdes: " + condicao2);
+
+//EXERCICIOS DE 13/05/2022
+//https://github.com/alexandrezamberlan/academiaDotNet/blob/main/exerciciosDesafios/4_exerciciosRepeticaoDESAFIO.txt
+//EXERCICIOS DA LISTA 4 DE REPETIÇÃO
+
+
+
+///*EXERCICIO4-01
+//1.	Faça um programa que leia um número inteiro n, inteiro e positivo e mostre a seguinte
+//soma: S = 1 + 1/2 + 1/3 + 1/4 + 1/5 .... 1/n
+//*/
+
+//int n;
+//double soma;
+
+//Console.WriteLine("Digite um número inteiro e positivo: ");
+//n = int.Parse(Console.ReadLine());
+
+//soma = 1;
+//for (double i = 2; i <= n; i++)
+//{
+//    soma = soma + (1 / i); //1/2,1/3,1/4
+
+//    Console.WriteLine("Soma i: " + i + ":  " + soma.ToString("F"));
+//}
+//Console.WriteLine("Resultado da soma é: " + soma.ToString("F"));
+
+
+///*
+//EXERCICIO4-02
+//2.	Imprima uma tabela de conversão de polegadas para centímetros, de 1 a 20. Considere que
+//Polegada = Centímetro * 2,54.
+//polegada = de 1 a 20
+//centimetro = polegada / 2,54
+//*/
+
+//List<double> listaCentimetro = new List<double>();
+//double valor_centimetro;
+
+//for (double i = 1; i <= 20; i++)
+//{
+//    valor_centimetro = i / 2.54;
+//    listaCentimetro.Add(valor_centimetro);  
+//}
+
+//Console.WriteLine("Tabela de conversão de polegadas para centímetros: ");
+
+//for (int i = 0; i < 20; i++)
+//{
+//    Console.WriteLine((i+1) + " ==> " + listaCentimetro[i].ToString("F"));
+//}
+
+
+///* EXERCICIO4-03
+// 3.	Dado um limite inferior e superior, calcule a soma de todos os números pares contidos
+//nesse intervalo. 
+//*/
+
+//double inferior;
+//double superior;
+//double somaPares = 0;
+
+//Console.WriteLine("Digite um intevalo de números a calcular: ");
+//inferior = double.Parse(Console.ReadLine());
+//superior = double.Parse(Console.ReadLine());
+
+//for (double i = inferior; i <= superior; i++)
+//{
+//    if (i%2 == 0)
+//    {
+//        somaPares = somaPares + i;
+//    }
+//}
+//Console.WriteLine("A soma dos pares é: " + somaPares);
+
+
+
+/*  EXERCICIO4-04  - TESTAR
+4 . Faça um algoritmo que leia uma lista de números inteiros positivos terminada pelo número 0 (zero). 
+Ao final, o algoritmo deve mostrar a média aritmética de todos os números lidos (excluindo o zero).
+*/
+
+//List<int> listaNumeros = new List<int>();//precisa ser string pq irei descartar o ultimo caracter=0
+string auxiliar;
+int auxiliar2;
+double media = 0;
+
+for (int i = 0; i <= 10; i++)
+{
+    Console.Write("Digite um número inteiro e positivo: ");
+    auxiliar = Console.ReadLine();
+    
+    auxiliar = auxiliar.Substring(0, auxiliar.Length - 1);
+    auxiliar2 = int.Parse(auxiliar);
+    Console.WriteLine(auxiliar2);
+
+    //listaNumeros.Add(auxiliar2);
+    media = media + Convert.ToDouble(auxiliar2);
+}
+
+media = media / 10;
+Console.WriteLine("Média: " + media);
+
+//REFAZER NUMERO PRIMO - o 03
+
+///*  EXERCICIO4-05
+//5.	Escreva um programa em C# que gera números entre 1000 e 1999 e mostra aqueles que divididos
+//por 11 dão resto 5.
+//*/
+
+//for (int i = 1000; i <= 1999; i++)
+//{
+//    if ((i%11 == 5))
+//    {
+//        Console.WriteLine(i);
+//    }
+//}
+
+
+/*
+EXERCICIO4-06
+6.	Faça um programa que leia um número n e imprima se ele é primo ou não. 
+(um número primo tem apenas 2 divisores: 1 e ele mesmo! O número 1 não é primo!!!)
+
+EXERCICIO4-07
+7.	Os dois primeiros números da sequência de Fibonacci são 0 e 1. Os próximos números dessa 
+sequência podem ser calculados como sendo a soma dos dois números anteriores. Os primeiros
+números de Fibonacci são: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, … Escreva um algoritmo 
+que leia um número pelo teclado N, e então mostre os N primeiros números da sequência de Fibonacci.
+ 
+ */
