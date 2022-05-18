@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\ExerciciosRepeticao_4\Exercicios01a07\obj\Debug\net6.0\Exercicios01a07.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\ExerciciosRepeticao_4\Exercicios01a07\obj\Debug\net6.0\Exercicios01a07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\ExerciciosRepeticao_4\Exercicios01a07\obj\Debug\net6.0\Exercicios01a07.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\ExerciciosRepeticao_4\Exercicios01a07\obj\Debug\net6.0\Exercicios01a07.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\ExerciciosRepeticao_4\Exercicios01a07\obj\Debug\net6.0\Exercicios01a07.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\ExerciciosRepeticao_4\Exercicios01a07\bin\Debug\net6.0\Exercicios01a07.exe
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\ExerciciosRepeticao_4\Exercicios01a07\bin\Debug\net6.0\Exercicios01a07.deps.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\ExerciciosRepeticao_4\Exercicios01a07\bin\Debug\net6.0\Exercicios01a07.runtimeconfig.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\ExerciciosRepeticao_4\Exercicios01a07\bin\Debug\net6.0\Exercicios01a07.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\ExerciciosRepeticao_4\Exercicios01a07\bin\Debug\net6.0\Exercicios01a07.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\ExerciciosRepeticao_4\Exercicios01a07\obj\Debug\net6.0\Exercicios01a07.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\ExerciciosRepeticao_4\Exercicios01a07\obj\Debug\net6.0\refint\Exercicios01a07.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\ExerciciosRepeticao_4\Exercicios01a07\obj\Debug\net6.0\Exercicios01a07.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\ExerciciosRepeticao_4\Exercicios01a07\obj\Debug\net6.0\Exercicios01a07.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Lacos_Repeticao\ExerciciosRepeticao_4\Exercicios01a07\obj\Debug\net6.0\ref\Exercicios01a07.dll
