@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\LerArquivo_Lista\\3_LerArquivo_Lista\\3_LerArquivo_Lista.csproj",
-      "projectName": "3_LerArquivo_Lista",
-      "projectPath": "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\LerArquivo_Lista\\3_LerArquivo_Lista\\3_LerArquivo_Lista.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\LerArquivo_Lista\\3_LerArquivo_Lista\\03_LerArquivo_Lista.csproj",
+      "projectName": "03_LerArquivo_Lista",
+      "projectPath": "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\LerArquivo_Lista\\3_LerArquivo_Lista\\03_LerArquivo_Lista.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\LerArquivo_Lista\\3_LerArquivo_Lista\\obj\\",
       "projectStyle": "PackageReference",
