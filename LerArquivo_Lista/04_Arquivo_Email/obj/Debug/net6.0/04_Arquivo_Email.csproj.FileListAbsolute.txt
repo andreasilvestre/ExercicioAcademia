@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\ExercicioAcademia\LerArquivo_Lista\04_Arquivo_Email\bin\Debug\net6.0\04_Arquivo_Email.exe
+C:\Users\Usuario\source\repos\ExercicioAcademia\LerArquivo_Lista\04_Arquivo_Email\bin\Debug\net6.0\04_Arquivo_Email.deps.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\LerArquivo_Lista\04_Arquivo_Email\bin\Debug\net6.0\04_Arquivo_Email.runtimeconfig.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\LerArquivo_Lista\04_Arquivo_Email\bin\Debug\net6.0\04_Arquivo_Email.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\LerArquivo_Lista\04_Arquivo_Email\bin\Debug\net6.0\04_Arquivo_Email.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\LerArquivo_Lista\04_Arquivo_Email\obj\Debug\net6.0\04_Arquivo_Email.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\LerArquivo_Lista\04_Arquivo_Email\obj\Debug\net6.0\04_Arquivo_Email.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\ExercicioAcademia\LerArquivo_Lista\04_Arquivo_Email\obj\Debug\net6.0\04_Arquivo_Email.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\LerArquivo_Lista\04_Arquivo_Email\obj\Debug\net6.0\04_Arquivo_Email.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ExercicioAcademia\LerArquivo_Lista\04_Arquivo_Email\obj\Debug\net6.0\04_Arquivo_Email.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\LerArquivo_Lista\04_Arquivo_Email\obj\Debug\net6.0\04_Arquivo_Email.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\LerArquivo_Lista\04_Arquivo_Email\obj\Debug\net6.0\refint\04_Arquivo_Email.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\LerArquivo_Lista\04_Arquivo_Email\obj\Debug\net6.0\04_Arquivo_Email.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\LerArquivo_Lista\04_Arquivo_Email\obj\Debug\net6.0\04_Arquivo_Email.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\LerArquivo_Lista\04_Arquivo_Email\obj\Debug\net6.0\ref\04_Arquivo_Email.dll
