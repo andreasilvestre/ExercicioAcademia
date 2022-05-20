@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop4_Refatorar\bin\Debug\net6.0\Drop4_Refatorar.exe
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop4_Refatorar\bin\Debug\net6.0\Drop4_Refatorar.deps.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop4_Refatorar\bin\Debug\net6.0\Drop4_Refatorar.runtimeconfig.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop4_Refatorar\bin\Debug\net6.0\Drop4_Refatorar.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop4_Refatorar\bin\Debug\net6.0\Drop4_Refatorar.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop4_Refatorar\obj\Debug\net6.0\Drop4_Refatorar.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop4_Refatorar\obj\Debug\net6.0\Drop4_Refatorar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop4_Refatorar\obj\Debug\net6.0\Drop4_Refatorar.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop4_Refatorar\obj\Debug\net6.0\Drop4_Refatorar.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop4_Refatorar\obj\Debug\net6.0\Drop4_Refatorar.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop4_Refatorar\obj\Debug\net6.0\Drop4_Refatorar.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop4_Refatorar\obj\Debug\net6.0\refint\Drop4_Refatorar.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop4_Refatorar\obj\Debug\net6.0\Drop4_Refatorar.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop4_Refatorar\obj\Debug\net6.0\Drop4_Refatorar.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop4_Refatorar\obj\Debug\net6.0\ref\Drop4_Refatorar.dll

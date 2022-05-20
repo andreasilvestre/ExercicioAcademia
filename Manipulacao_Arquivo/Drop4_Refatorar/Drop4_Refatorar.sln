@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drop4_Refatorar", "Drop4_Refatorar.csproj", "{4F76CEBE-2DB0-4FC9-92B6-38558D8C441C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F76CEBE-2DB0-4FC9-92B6-38558D8C441C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F76CEBE-2DB0-4FC9-92B6-38558D8C441C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F76CEBE-2DB0-4FC9-92B6-38558D8C441C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F76CEBE-2DB0-4FC9-92B6-38558D8C441C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E1020AB-D0FA-42E9-A67E-490893F1D20C}
+	EndGlobalSection
+EndGlobal
