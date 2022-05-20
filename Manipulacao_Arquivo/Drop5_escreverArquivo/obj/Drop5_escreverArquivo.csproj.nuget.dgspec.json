@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\Classe\\Drop5_escreverArquivo\\Drop5_escreverArquivo.csproj": {}
+    "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\Manipulacao_Arquivo\\Drop5_escreverArquivo\\Drop5_escreverArquivo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\Classe\\Drop5_escreverArquivo\\Drop5_escreverArquivo.csproj": {
+    "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\Manipulacao_Arquivo\\Drop5_escreverArquivo\\Drop5_escreverArquivo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\Classe\\Drop5_escreverArquivo\\Drop5_escreverArquivo.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\Manipulacao_Arquivo\\Drop5_escreverArquivo\\Drop5_escreverArquivo.csproj",
         "projectName": "Drop5_escreverArquivo",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\Classe\\Drop5_escreverArquivo\\Drop5_escreverArquivo.csproj",
+        "projectPath": "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\Manipulacao_Arquivo\\Drop5_escreverArquivo\\Drop5_escreverArquivo.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\Classe\\Drop5_escreverArquivo\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\source\\repos\\ExercicioAcademia\\Manipulacao_Arquivo\\Drop5_escreverArquivo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
