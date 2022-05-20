@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Drop5_escreverArquivo/1.0.0": {
+        "runtime": {
+          "Drop5_escreverArquivo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Drop5_escreverArquivo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

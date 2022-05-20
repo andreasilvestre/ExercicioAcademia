@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classe\Drop5_escreverArquivo\bin\Debug\net6.0\Drop5_escreverArquivo.exe
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classe\Drop5_escreverArquivo\bin\Debug\net6.0\Drop5_escreverArquivo.deps.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classe\Drop5_escreverArquivo\bin\Debug\net6.0\Drop5_escreverArquivo.runtimeconfig.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classe\Drop5_escreverArquivo\bin\Debug\net6.0\Drop5_escreverArquivo.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classe\Drop5_escreverArquivo\bin\Debug\net6.0\Drop5_escreverArquivo.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classe\Drop5_escreverArquivo\obj\Debug\net6.0\Drop5_escreverArquivo.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classe\Drop5_escreverArquivo\obj\Debug\net6.0\Drop5_escreverArquivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classe\Drop5_escreverArquivo\obj\Debug\net6.0\Drop5_escreverArquivo.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classe\Drop5_escreverArquivo\obj\Debug\net6.0\Drop5_escreverArquivo.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classe\Drop5_escreverArquivo\obj\Debug\net6.0\Drop5_escreverArquivo.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classe\Drop5_escreverArquivo\obj\Debug\net6.0\Drop5_escreverArquivo.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classe\Drop5_escreverArquivo\obj\Debug\net6.0\refint\Drop5_escreverArquivo.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classe\Drop5_escreverArquivo\obj\Debug\net6.0\Drop5_escreverArquivo.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classe\Drop5_escreverArquivo\obj\Debug\net6.0\Drop5_escreverArquivo.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classe\Drop5_escreverArquivo\obj\Debug\net6.0\ref\Drop5_escreverArquivo.dll
