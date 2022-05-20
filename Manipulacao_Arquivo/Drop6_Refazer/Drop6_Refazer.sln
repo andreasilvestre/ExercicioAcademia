@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drop6_Refazer", "Drop6_Refazer.csproj", "{0954D90A-57A9-4DB0-80A3-3715ABBCACA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0954D90A-57A9-4DB0-80A3-3715ABBCACA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0954D90A-57A9-4DB0-80A3-3715ABBCACA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0954D90A-57A9-4DB0-80A3-3715ABBCACA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0954D90A-57A9-4DB0-80A3-3715ABBCACA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48B07163-A56B-4DF0-AE03-A3EB1B8BB9ED}
+	EndGlobalSection
+EndGlobal

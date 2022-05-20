@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop6_Refazer\obj\Debug\net6.0\Drop6_Refazer.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop6_Refazer\obj\Debug\net6.0\Drop6_Refazer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop6_Refazer\obj\Debug\net6.0\Drop6_Refazer.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop6_Refazer\obj\Debug\net6.0\Drop6_Refazer.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop6_Refazer\obj\Debug\net6.0\Drop6_Refazer.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop6_Refazer\bin\Debug\net6.0\Drop6_Refazer.exe
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop6_Refazer\bin\Debug\net6.0\Drop6_Refazer.deps.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop6_Refazer\bin\Debug\net6.0\Drop6_Refazer.runtimeconfig.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop6_Refazer\bin\Debug\net6.0\Drop6_Refazer.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop6_Refazer\bin\Debug\net6.0\Drop6_Refazer.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop6_Refazer\obj\Debug\net6.0\Drop6_Refazer.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop6_Refazer\obj\Debug\net6.0\refint\Drop6_Refazer.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop6_Refazer\obj\Debug\net6.0\Drop6_Refazer.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop6_Refazer\obj\Debug\net6.0\Drop6_Refazer.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Manipulacao_Arquivo\Drop6_Refazer\obj\Debug\net6.0\ref\Drop6_Refazer.dll
