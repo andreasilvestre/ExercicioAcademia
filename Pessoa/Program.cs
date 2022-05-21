@@ -68,9 +68,9 @@ class Pessoa
      this.nome = nm.ToUpper();
      return nome;
     }
-    public string CPF(string cpfs)
+    public string CPF(string cpf)
     {
-        cpf = cpfs.ToUpper();
+        this.cpf = cpf.ToUpper();
         return cpf;
     }
     public string Telefone(string tel)
