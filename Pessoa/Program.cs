@@ -31,6 +31,22 @@ Pessoa pessoa = new Pessoa();
 //pessoa.nome = nome_digitado; ==>  passa direto valor para o atributo
 //F12 vai para o metodo
 
+pessoa.Cadastrar(nome_digitado, cpf_digitado, telefone_digitado, email_digitado, endereco_digitado);
+
+Console.WriteLine("Pessoa = " + pessoa.nome + " | " + pessoa.cpf + " | " + pessoa.telefone + " | \n" +
+    pessoa.email + " | " + pessoa.endereco);
+
+pessoa.Dormir();
+Console.WriteLine("Está dormindo? " + pessoa.estaDormindo);
+
+//pessoa.Comer();
+//Console.WriteLine("Está comendo? " + pessoa.estaComendo);
+
+pessoa.Estudar();
+Console.WriteLine("O que a pessoa está fazendo???  Estudando??? " + pessoa.estaEstudando);
+
+Console.WriteLine("FIM PRIMEIRO TESTE \n");
+
 pessoa.Nome(nome_digitado);
 pessoa.CPF(cpf_digitado);   
 //pessoa.Telefone(telefone_digitado);
@@ -44,6 +60,8 @@ Console.WriteLine("Telefone: " + pessoa.Telefone(telefone_digitado));
 Console.WriteLine("Email: " + pessoa.Email(email_digitado));
 Console.WriteLine("Endereco:" + pessoa.Endereco(endereco_digitado));
 
+
+
 class Pessoa
 {
     public string nome;
@@ -51,7 +69,10 @@ class Pessoa
     public string telefone;
     public string email;
     public string endereco;
-
+    public bool estaDormindo;
+    public bool estaComendo;
+    public bool estaTrabalhando;
+    public bool estaEstudando;
     //prop tab tab - atalho atributo
     //public int MyProperty { get; set; }
 
@@ -60,6 +81,50 @@ class Pessoa
     //{
 
     //}
+
+    public void Cadastrar(string nome, string cpf, string telefone, string email, string encdereco)
+    {
+        this.nome = nome.ToUpper();
+        this.cpf = cpf.ToUpper();
+        this.telefone = telefone;
+        this.email = email.ToUpper();
+        this.endereco = encdereco.ToUpper();
+
+    }
+
+    public void Dormir()
+    {
+        estaDormindo = true;
+    }
+
+    public bool Comer()
+    {
+        estaComendo = true;
+        return estaComendo;
+    }
+
+    public void Acordar()
+    {
+        estaDormindo = false;
+    }
+
+    public void Trabalhar()
+    {
+        estaDormindo = false;
+        estaComendo = false;
+        estaEstudando = false;
+
+        estaTrabalhando = true;
+    }
+
+    public void Estudar()
+    { 
+        estaComendo = false;
+        estaDormindo = false;
+        estaTrabalhando = false;
+
+        estaEstudando=true;
+    }
 
     //método para apresentar dados
     public string Nome(string nm)
