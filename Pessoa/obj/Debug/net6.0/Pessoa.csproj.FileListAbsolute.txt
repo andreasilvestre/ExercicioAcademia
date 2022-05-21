@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\ExercicioAcademia\Pessoa\obj\Debug\net6.0\Pessoa.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Pessoa\obj\Debug\net6.0\Pessoa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\ExercicioAcademia\Pessoa\obj\Debug\net6.0\Pessoa.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Pessoa\obj\Debug\net6.0\Pessoa.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ExercicioAcademia\Pessoa\obj\Debug\net6.0\Pessoa.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Pessoa\bin\Debug\net6.0\Pessoa.exe
+C:\Users\Usuario\source\repos\ExercicioAcademia\Pessoa\bin\Debug\net6.0\Pessoa.deps.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Pessoa\bin\Debug\net6.0\Pessoa.runtimeconfig.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Pessoa\bin\Debug\net6.0\Pessoa.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Pessoa\bin\Debug\net6.0\Pessoa.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Pessoa\obj\Debug\net6.0\Pessoa.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Pessoa\obj\Debug\net6.0\refint\Pessoa.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Pessoa\obj\Debug\net6.0\Pessoa.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Pessoa\obj\Debug\net6.0\Pessoa.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Pessoa\obj\Debug\net6.0\ref\Pessoa.dll
