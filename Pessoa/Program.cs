@@ -45,6 +45,19 @@ Console.WriteLine("Está dormindo? " + pessoa.estaDormindo);
 pessoa.Estudar();
 Console.WriteLine("O que a pessoa está fazendo???  Estudando??? " + pessoa.estaEstudando);
 
+int opcao;
+Console.WriteLine("O que a pessoa está fazendo agora??????");
+Console.WriteLine("1 - Dormindo?");
+Console.WriteLine("2 - Comendo?");
+Console.WriteLine("3 - Trabalhando?");
+Console.WriteLine("4 - Estudando?");
+Console.WriteLine("5 - Exercitando?");
+Console.WriteLine("Opção: ");
+opcao = int.Parse(Console.ReadLine());
+
+pessoa.Fazer(opcao);
+Console.WriteLine("A pessoa está....... " + pessoa.estaFazendo);
+
 Console.WriteLine("FIM PRIMEIRO TESTE \n");
 
 pessoa.Nome(nome_digitado);
@@ -73,6 +86,8 @@ class Pessoa
     public bool estaComendo;
     public bool estaTrabalhando;
     public bool estaEstudando;
+
+    public string estaFazendo;
     //prop tab tab - atalho atributo
     //public int MyProperty { get; set; }
 
@@ -92,6 +107,30 @@ class Pessoa
 
     }
 
+    public string Fazer(int opcao)
+    {
+        switch (opcao)
+        {
+            case 1:
+                estaFazendo = "Dormindo";
+                break;
+            case 2:
+                estaFazendo = "Comendo";
+                break;
+            case 3:
+                estaFazendo = "Trabalhando";
+                break;
+            case 4:
+                estaFazendo = "Estudando";
+                break;
+            case 5:
+                estaFazendo = "Exercitando";
+                break;
+            default:
+                break;
+        }
+        return estaFazendo;
+    }
     public void Dormir()
     {
         estaDormindo = true;
