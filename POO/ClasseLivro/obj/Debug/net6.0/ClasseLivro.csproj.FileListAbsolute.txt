@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\ExercicioAcademia\POO\ClasseLivro\bin\Debug\net6.0\ClasseLivro.exe
+C:\Users\Usuario\source\repos\ExercicioAcademia\POO\ClasseLivro\bin\Debug\net6.0\ClasseLivro.deps.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\POO\ClasseLivro\bin\Debug\net6.0\ClasseLivro.runtimeconfig.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\POO\ClasseLivro\bin\Debug\net6.0\ClasseLivro.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\POO\ClasseLivro\bin\Debug\net6.0\ClasseLivro.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\POO\ClasseLivro\obj\Debug\net6.0\ClasseLivro.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\POO\ClasseLivro\obj\Debug\net6.0\ClasseLivro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\ExercicioAcademia\POO\ClasseLivro\obj\Debug\net6.0\ClasseLivro.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\POO\ClasseLivro\obj\Debug\net6.0\ClasseLivro.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ExercicioAcademia\POO\ClasseLivro\obj\Debug\net6.0\ClasseLivro.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\POO\ClasseLivro\obj\Debug\net6.0\ClasseLivro.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\POO\ClasseLivro\obj\Debug\net6.0\refint\ClasseLivro.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\POO\ClasseLivro\obj\Debug\net6.0\ClasseLivro.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\POO\ClasseLivro\obj\Debug\net6.0\ClasseLivro.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\POO\ClasseLivro\obj\Debug\net6.0\ref\ClasseLivro.dll
