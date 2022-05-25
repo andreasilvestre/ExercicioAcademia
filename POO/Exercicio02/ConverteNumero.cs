@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Exercicio02
 {
+    /// <summary>
+    /// converte o número em ordinário
+    /// </summary>
     class ConverteNumero
     {
 

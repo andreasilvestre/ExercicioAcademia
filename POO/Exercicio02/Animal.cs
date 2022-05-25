@@ -19,7 +19,16 @@ namespace Exercicio02
         /// </summary>
         string tipo;
 
+        public Animal()
+        {
+        }
 
+
+        /// <summary>
+        /// metodo construtor
+        /// </summary>
+        /// <param name="nome"></param>
+        /// <param name="tipo"></param>
         public Animal(string nome, string tipo)
         {
             this.nome = nome;
@@ -29,7 +38,11 @@ namespace Exercicio02
         public string Nome { get => nome; set => nome = value; }
         public string Tipo { get => tipo; set => tipo = value; }
 
-
+        /// <summary>
+        /// verifica qual tipo de animal foi digitado pelo usuário e se está correto.
+        /// </summary>
+        /// <param name="tipo"></param>
+        /// <returns></returns>
         public static bool verificaTipo(string tipo)
         {
             if (tipo == "CACHORRO" || tipo == "GATO" || tipo == "PEIXE")
@@ -41,7 +54,10 @@ namespace Exercicio02
                 return false;
             }
         }
-
+        /// <summary>
+        /// verifica na lista de animais, as quantidades de cachorros, gatos e peixes
+        /// </summary>
+        /// <param name="lista"></param>
         public static void Quantidade(List<Animal> lista)
         {
             int quantidadeCachorro = 0;
@@ -70,7 +86,11 @@ namespace Exercicio02
             Console.WriteLine("Peixe: " + quantidadePeixe);
         }
 
-        //com retorno return
+        /// <summary>
+        /// verifica na lista de animais, as quantidades de cachorros, gatos e peixes - com return
+        /// </summary>
+        /// <param name="lista"></param>
+        /// <returns></returns>
         public static string retornaQuantidade(List<Animal> lista)
         {
             int quantidadeCachorro = 0;
