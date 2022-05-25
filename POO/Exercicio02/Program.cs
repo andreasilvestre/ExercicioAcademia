@@ -12,18 +12,28 @@
 //usuário armazene/leia os dados dos dois dados privados (propriedades).
 
 using Exercicio02;
+/// <summary>
+/// lista que contém os animais digitados pelo usuário
+/// </summary>
 List<Animal> listaAnimais= new List<Animal>();
+
+/// <summary>
+/// armazena o nome do animal digitado pelo usuário
+/// </summary>
 string nome;
+
+/// <summary>
+/// armazena o tipo de animal digitado [cachorro, gato ou peixe]
+/// </summary>
 string tipo;
 
 for (int i = 0; i < 5; i++)
 {
+    ConverteNumero converte_num = new ConverteNumero();
     Console.Clear();
-    Console.WriteLine("Vamos analisar os animais de estimação?" + i);
+    Console.WriteLine("Vamos analisar os animais de estimação? " + converte_num.Converter(i));
     Console.Write("Digite o nome do animal: ");
     nome = Console.ReadLine().ToUpper();
-    //Console.Write("Digite o tipo de animal: [Cachorro, Gato ou Peixe]: ");
-    //tipo = Console.ReadLine().ToUpper();
     do
     {
         Console.Clear();
@@ -41,6 +51,7 @@ for (int i = 0; i < 5; i++)
     //Console.ReadKey();
 }
 
+Console.Clear();
 Animal.Quantidade(listaAnimais);
 
 Console.WriteLine("As quantidades são: ");
