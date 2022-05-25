@@ -27,6 +27,11 @@ namespace Exercicio05
             this.altura = altura;
         }
 
+        public void exibirDados()
+        {
+            Console.WriteLine("Exibindo dados...");
+            Console.WriteLine(Descricao + "|" + Data_criacao.ToString("d") + "|" + Altura);
+        }
         public TimeSpan calcularTempo()
         {
             TimeSpan intervalo;

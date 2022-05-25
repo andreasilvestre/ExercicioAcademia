@@ -18,6 +18,7 @@ Console.WriteLine("Digite os dados de um cenário: ");
 Console.Write("Descrição: ");
 item.Descricao = Console.ReadLine();
 
+
 Console.Write("Data de Criação: ");
 item.Data_criacao = DateTime.Parse(Console.ReadLine());
 //item.Data_criacao = DateTime.Now;
@@ -25,18 +26,7 @@ item.Data_criacao = DateTime.Parse(Console.ReadLine());
 Console.Write("Altura: ");
 item.Altura = float.Parse(Console.ReadLine());
 
-Console.WriteLine("Impriminado dados...");
-Console.WriteLine(item.Descricao + "|" + item.Data_criacao + "|" + item.Altura);
+item.exibirDados();
 
 //item.calcularTempo();
 Console.WriteLine("Tempo de criação: " + item.calcularTempo());
-
-//// Define two dates.
-//DateTime date1 = new DateTime(2010, 1, 1, 8, 0, 15);
-//DateTime date2 = new DateTime(2010, 8, 18, 13, 30, 30);
-
-//// Calculate the interval between the two dates.
-//TimeSpan interval = date2 - date1;
-////outro jeito de exibir dados, por vetor 
-//Console.WriteLine("{0} - {1} = {2}", date2, date1, interval.ToString());
-
