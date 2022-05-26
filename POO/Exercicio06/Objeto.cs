@@ -22,11 +22,18 @@ namespace Exercicio06
             this.x = x;
             this.y = y;
         }
-        //public exibirUmObjeto()
-        //{ 
-        //}
-        //public exibirVariosObjetos()
-        //{ 
-        //}
+
+        public void exibirUmObjeto()
+        {
+            Console.WriteLine("Objeto informado é: " + X + "x" + Y);
+        }
+
+        public static void exibirVariosObjetos(List<Objeto> lista)
+        {
+            foreach (Objeto i in lista)
+            {
+                Console.WriteLine("Objeto: " + i.x + "x" + i.y);
+            }
+        }
     }
 }
