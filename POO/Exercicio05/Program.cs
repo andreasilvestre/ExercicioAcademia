@@ -24,10 +24,12 @@ item.Data_criacao = DateTime.Parse(Console.ReadLine());
 //item.Data_criacao = DateTime.Now;
 
 Console.Write("Altura: ");
+
 item.Altura = float.Parse(Console.ReadLine());
 
 item.exibirDados();
 
 //item.calcularTempo();
 Console.WriteLine("Tempo de criação: " + item.calcularTempo());
-
+Console.WriteLine("Data hoje Today: " + DateTime.Today + "Ano: " + DateTime.Today.Year);
+Console.WriteLine("Data Now(): " + DateTime.Now);

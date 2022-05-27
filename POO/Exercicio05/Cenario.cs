@@ -73,11 +73,23 @@ namespace Exercicio05
         /// <returns></returns>
         public TimeSpan calcularTempo()
         {
-            TimeSpan intervalo;
-            intervalo = DateTime.Now.Subtract(Data_criacao);
-            //ou
+            //TimeSpan intervalo;~//não precis a de variável
+            //intervalo = DateTime.Now.Subtract(Data_criacao);
             //intervalo = DateTime.Now - Data_criacao;
-            return intervalo;
+            //return intervalo;
+            return DateTime.Now.Subtract(Data_criacao);
+            //return DateTime.Now - Data_criacao;
+        }
+
+        public void imprimirCenario()
+        {
+            string arquivo = "teste.txt";
+            string caminho = @"C:\temp\";
+            string fullPath = System.IO.Path.Combine(caminho, arquivo);
+            Console.BackgroundColor = ConsoleColor.Green;
+            //StreamPrint
+            //printDocument1.DocumentName = arquivo;
+            //stringToPrint = System.IO.File.ReadAllText(fullPath);
         }
     }
 }
