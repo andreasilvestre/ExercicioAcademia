@@ -1,0 +1,4 @@
+#3
+Os quatro pilares do paradigma de Orientação a Objetos são:
+letra D.
+D - Abstração, Encapsulamento, Herança e Polimorfismo.

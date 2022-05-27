@@ -85,7 +85,7 @@ namespace ProblemaDasDisciplinas
             List<Aluno> listaComuns = new List<Aluno>(); 
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Exibindo alunos em comuns e GRAVANDO COMUNS...");
+            Console.WriteLine("Exibindo alunos em comuns e GRAVANDO...");
 
             //StreamWriter escritor = new StreamWriter("alunosComuns.dat", true); //com append/add
             StreamWriter escritor = new StreamWriter("alunosComuns.dat");//sem true sobrepoe arquivo
