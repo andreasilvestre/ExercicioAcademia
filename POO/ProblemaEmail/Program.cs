@@ -24,6 +24,13 @@ string opcao;
 //popular a lista com dados do arquivo
 Util.carregarListas(listaUsuarios);
 
+//testes extras
+//Console.BackgroundColor = ConsoleColor.Blue;
+//Console.ForegroundColor = ConsoleColor.Green;
+Console.Beep();
+bool caps = Console.CapsLock;
+
+    
 do
 {
     Console.Clear();

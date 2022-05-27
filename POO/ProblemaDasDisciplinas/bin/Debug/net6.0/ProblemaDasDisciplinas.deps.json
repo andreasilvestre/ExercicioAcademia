@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ProblemaDasDisciplinas/1.0.0": {
+        "runtime": {
+          "ProblemaDasDisciplinas.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProblemaDasDisciplinas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
