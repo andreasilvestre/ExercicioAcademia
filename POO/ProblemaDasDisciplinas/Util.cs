@@ -80,14 +80,12 @@ namespace ProblemaDasDisciplinas
                 Console.WriteLine("Arquivo2 com problemas ou inexistente");
             }
         }
-
-
         public static void exibirComuns(List<Aluno> lista1, List<Aluno> lista2)
         {
             List<Aluno> listaComuns = new List<Aluno>(); 
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Exibindo alunos em comuns E GRAVANDO ARQUIVO...");
+            Console.WriteLine("Exibindo alunos em comuns e GRAVANDO COMUNS...");
 
             //StreamWriter escritor = new StreamWriter("alunosComuns.dat", true); //com append/add
             StreamWriter escritor = new StreamWriter("alunosComuns.dat");//sem true sobrepoe arquivo
@@ -116,27 +114,5 @@ namespace ProblemaDasDisciplinas
             } //fim foreach
             escritor.Close();
         }//fim metodo
-
-        //para gravar alunos em comum, caso queira em ==> construção
-        
-        private static void gravarArquivo(Aluno objeto)
-        //private static void gravarArquivo(string matricula, string nome, string email)
-        {
-            try
-            {
-                //StreamWriter escritor = new StreamWriter("alunosComuns.dat", true); //com append/add
-                StreamWriter escritor = new StreamWriter("alunosComuns.dat");//sem true sobrepoe arquivo
-
-                //escritor.WriteLine(objeto.Matricula + ";" + objeto.Nome + ";" + objeto.Email);
-                escritor.WriteLine(objeto.Matricula + ";" + objeto.Nome + ";" + objeto.Email);
-                escritor.Flush();
-                escritor.Close();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Erro - Arquivo de usuários com problemas" + e);
-            }
-        }
-
-    }
-}
+    }// fim classe
+} //namespace
