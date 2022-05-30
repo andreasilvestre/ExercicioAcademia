@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classes_exemplos\obj\Debug\net6.0\Classes_exemplos.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classes_exemplos\obj\Debug\net6.0\Classes_exemplos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classes_exemplos\obj\Debug\net6.0\Classes_exemplos.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classes_exemplos\obj\Debug\net6.0\Classes_exemplos.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classes_exemplos\obj\Debug\net6.0\Classes_exemplos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classes_exemplos\bin\Debug\net6.0\Classes_exemplos.exe
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classes_exemplos\bin\Debug\net6.0\Classes_exemplos.deps.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classes_exemplos\bin\Debug\net6.0\Classes_exemplos.runtimeconfig.json
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classes_exemplos\bin\Debug\net6.0\Classes_exemplos.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classes_exemplos\bin\Debug\net6.0\Classes_exemplos.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classes_exemplos\obj\Debug\net6.0\Classes_exemplos.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classes_exemplos\obj\Debug\net6.0\refint\Classes_exemplos.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classes_exemplos\obj\Debug\net6.0\Classes_exemplos.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classes_exemplos\obj\Debug\net6.0\Classes_exemplos.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\Classes_exemplos\obj\Debug\net6.0\ref\Classes_exemplos.dll
