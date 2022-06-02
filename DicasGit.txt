@@ -16,3 +16,7 @@ Comandos básicos
 
 3) Buscando códigos do servidor para a estação de trabalho:
     git pull
+
+ - Quando o computador pessoal apresenta problemas de credenciamento. Executar no terminal
+    git config --global user.name "Fulano de Tal"
+    git config --global user.email fulano@exemplo.com.br

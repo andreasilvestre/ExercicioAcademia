@@ -1,0 +1,157 @@
+
+Roteiro das aulas
+
+26/04
+https://github.com/alexandrezamberlan/academiaDotNet
+
+Sistema de Versionamento de Código/Texto
+    - Serviço Git: serviço gratuito para versionamento de código
+    - Portal GitHub: servidor Web que gera serviço git
+    - Comandos
+    - https://github.com/alexandrezamberlan/oficinaGit
+    - alexandrezamberlan
+    
+    - Quando o computador pessoal apresenta problemas de credenciamento. Executar no terminal
+    git config --global user.name "Fulano de Tal"
+    git config --global user.email fulano@exemplo.com.br
+
+Ambientes de Desenvolvimento (IDE - Integrated Development Environment)
+    - Visual Studio Code (VS Code)
+    - Visual Studio
+    
+
+28/04
+Visual Studio 2022
+Github
+Exercícios de programação sequencial -> variáveis e instruções básicas (leitura, escrita e atribuição)
+
+
+03/05
+Sites de apoio em C# - https://www.w3schools.com/cs/index.php
+Resolução de alguns exercícios de programação sequencial 
+Boas práticas de desenvolvimento:
+    1) versionamento de código
+    2) acessar/ler/estudar documentação da tecnologia
+    3) documentação ou comentários
+
+10/05
+Desvio condicional ou instruções de controle por SELEÇÃO 
+    - Material do professor Ricardo
+    - Instrução de controle de desvio condicional SWITCH
+    - https://www.w3schools.com/cs/cs_switch.php
+
+Classes:
+    - string
+    - Random
+    - DateTime - https://docs.microsoft.com/pt-br/dotnet/api/system.datetime.now?view=net-6.0
+    - List
+    - Math 
+
+12/05
+Instruções de controle de repetição
+
+Independente da instrução de repetição utilizada, é preciso garantir 3 situações na repetição:
+1 - inicialização da variável de controle da repetição
+2 - usar a variável de controle em teste de parada/continuação (CONDIÇÃO)
+3 - transformar a variável de controle
+
+C#
+    do { //PRIMEIRO EXECUTA E DEPOIS TESTA
+        //bloco de instruções que será repetido enquanto a condição do while for VERDADEIRA ou true
+    } while (CONDIÇÃO);
+
+    ------
+
+    while ( CONDIÇÃO ) { //PRIMEIRO TESTA E DEPOIS EXECUTA
+        //bloco de instruções que será repetido enquanto a condição do while for VERDADEIRA 
+    }
+
+    ------
+
+    for ( ; CONDIÇÃO ; ) { //PARA ESSA SITUAÇAO, ENQUANTO FOR VERDADE A CONDIÇÃO FAÇA O BLOCO DE INSTRUÇÕES
+
+    }
+
+18/5
+Drops em C#: List, Random, string e StreamReader
+
+Construção de programas para trabalhar com i) dados de glicemia; ii) dados de emails com listas e arquivos
+
+
+19/5
+Refatorar o programa do email e gravar em arquivo (StreamWriter)
+
+Teoria da Orientação a Objetos - Exemplo da Glicemia
+    - como criar uma Classe
+    - como instanciar um objeto dessa Classe
+
+24/05
+Processo de avaliação 
+Documentação OO .net -> https://docs.microsoft.com/pt-br/dotnet/api/?view=net-6.0
+
+Orientação a Objetos -> TERCEIRIZAÇÃO
+
+    - Problema das listagens dos alunos (disciplinas de Estruturas de Dados e Linguagem de Programação)
+    - Arquivos .txt com nomes dos matriculados (matricula;nome;email)
+
+    Listas -> List (Count, Add(), AddRange(), Remove(), Contains())
+    Console -> Console (WriteLine(), ReadLine(), ReadKey(), Clear())
+    Arquivo Texto -> StreamReader (ReadLine(), StreamReader(), EndOfStream(), Close())
+    Aluno -> criar a classe aluno -> seus atributos e seus serviços
+    Utilidades -> criar a classe Util -> com serviços comuns de arquivo e listas
+
+Exercícios: 6_exerciciosOrientacaoObjetos.txt
+
+
+26/05
+Teoria ou no Paradigma da Orientação Objetos
+    - Abordagem mais real -> TERCEIRIZAÇÃO
+        - atributo/variável/característica/propriedade -> aspectos estruturais -> mapeado em BD
+        - método/operação/função/funcionalidade/comportamento -> aspectos funcionais -> serviços
+
+    - Desafio: programa no VS, com menu, para cadastrar usuários no sistema e gerar seus emails
+               automaticamente. Os usuários (nome completo e email) devem ser persistidos em arquivo.
+               Além disso, é preciso mantê-los em uma lista dinâmica em memória, que é populada sempre que 
+               o programa executa.
+
+                Menu
+                1 - Cadastrar usuário (só o nome completo)
+                        - gerar o email 
+                        - verificar se este email já foi gerado (na lista)
+                        - caso não exista, colocar na lista e persistir no arquivo: nome completo;email
+                2 - Listar os usuários (nome completo e email)
+                        - mostrar ordenado (pode)
+                3 - Sair 
+                Opção: 
+
+                Observações: Classe Usuário (construtor, getters/setters, gerarEmail); List; StreamWriter; StreamReader
+
+
+31/5 - Projeto de Banco de Dados
+     visão geral 
+     arquitetura de sistemas
+     modelagem de banco de dados
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
