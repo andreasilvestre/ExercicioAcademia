@@ -48,6 +48,8 @@
             this.mtbCPF = new System.Windows.Forms.MaskedTextBox();
             this.mtbDataNascimento = new System.Windows.Forms.MaskedTextBox();
             this.lblDataNascimento = new System.Windows.Forms.Label();
+            this.tbTipo = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbLimpar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSalvar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbOlhoSenha)).BeginInit();
@@ -219,11 +221,14 @@
             // 
             // mtbTelefone
             // 
+            this.mtbTelefone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.mtbTelefone.CutCopyMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.mtbTelefone.Location = new System.Drawing.Point(440, 51);
             this.mtbTelefone.Mask = "(00)00000-0000   ";
             this.mtbTelefone.Name = "mtbTelefone";
             this.mtbTelefone.Size = new System.Drawing.Size(124, 22);
             this.mtbTelefone.TabIndex = 1;
+            this.mtbTelefone.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
             // mtbCPF
             // 
@@ -232,6 +237,7 @@
             this.mtbCPF.Name = "mtbCPF";
             this.mtbCPF.Size = new System.Drawing.Size(124, 22);
             this.mtbCPF.TabIndex = 3;
+            this.mtbCPF.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
             // mtbDataNascimento
             // 
@@ -240,6 +246,7 @@
             this.mtbDataNascimento.Name = "mtbDataNascimento";
             this.mtbDataNascimento.Size = new System.Drawing.Size(124, 22);
             this.mtbDataNascimento.TabIndex = 5;
+            this.mtbDataNascimento.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.mtbDataNascimento.ValidatingType = typeof(System.DateTime);
             // 
             // lblDataNascimento
@@ -251,12 +258,33 @@
             this.lblDataNascimento.TabIndex = 21;
             this.lblDataNascimento.Text = "Data de Nascimento:";
             // 
+            // tbTipo
+            // 
+            this.tbTipo.Location = new System.Drawing.Point(30, 288);
+            this.tbTipo.Name = "tbTipo";
+            this.tbTipo.Size = new System.Drawing.Size(376, 22);
+            this.tbTipo.TabIndex = 22;
+            this.tbTipo.Visible = false;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(515, 222);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 23;
+            this.button1.Text = "&Botao";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Visible = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(602, 341);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.tbTipo);
             this.Controls.Add(this.lblDataNascimento);
             this.Controls.Add(this.mtbDataNascimento);
             this.Controls.Add(this.mtbCPF);
@@ -277,6 +305,7 @@
             this.Controls.Add(this.lblLogin);
             this.Controls.Add(this.lblNome);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Form1";
@@ -310,6 +339,8 @@
         private System.Windows.Forms.MaskedTextBox mtbCPF;
         private System.Windows.Forms.MaskedTextBox mtbDataNascimento;
         private System.Windows.Forms.Label lblDataNascimento;
+        private System.Windows.Forms.TextBox tbTipo;
+        private System.Windows.Forms.Button button1;
     }
 }
 

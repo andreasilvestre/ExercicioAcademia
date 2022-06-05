@@ -80,6 +80,8 @@ namespace CadastroUsuario
         {
             //MessageBox.Show("TELEFOME COM MASCARA: " + mtbTelefone.Text);
 
+            
+
             Usuario u = new Usuario(tbNome.Text, mtbTelefone.Text, mtbCPF.Text, tbLogin.Text, tbSenha.Text, cbStatus.Text, cbTipo.Text, mtbDataNascimento.Text);
 
             u.MostrarDadosUsuario();
@@ -95,6 +97,22 @@ namespace CadastroUsuario
             cbStatus.ResetText();
             cbTipo.ResetText();
             mtbDataNascimento.Clear();
+
+            //double tipo;
+            //string tipoTexto;
+
+            //tipo = double.Parse(tbTipo.Text);
+            //tipoTexto = Convert.ToString(tipo);
+            ////tipoTexto = tipo.ToString();
+         
+
+            //MessageBox.Show("Double: " + tipo +
+            //    "\nString: " + tipoTexto );
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("olá botão, estou testando o alt b sublinhado");
         }
     }
 }
