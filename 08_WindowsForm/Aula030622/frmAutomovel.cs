@@ -10,9 +10,11 @@ using System.Windows.Forms;
 
 namespace Aula030622
 {
-    public partial class Form1 : Form
+    public partial class frmAutomovel : Form
     {
-        public Form1()
+        static List<Carro> carros = new List<Carro>();
+
+        public frmAutomovel()
         {
             InitializeComponent();
         }
@@ -31,6 +33,7 @@ namespace Aula030622
                 
             }
             cbPortas.ResetText();
+            dgAutomoveis.Rows.Clear();
         }
 
         private void btSalvar_Click(object sender, EventArgs e)
@@ -53,7 +56,7 @@ namespace Aula030622
                 {
                     ac = true;
                 }
-                if (opc == "Direção Hidráulica")
+                if (opc == "Direção Hidraúlica")
                 {
                     dh = true;
                 }
@@ -77,7 +80,27 @@ namespace Aula030622
             else if (cbPortas.Text == "5 portas") portas = 5;
             Carro c = new Carro(tbModeloCarro.Text, tbFabricante.Text, ac, dh, abs, ab, ve, portas);
             
-            c.MostrarDadosCarro();
+            //c.MostrarDadosCarro();
+            carros.Add(c);
+            //mostraListaCarros();
+            dgAutomoveis.Rows.Add(tbModeloCarro.Text, tbFabricante.Text, ac, dh, abs, ab, ve, portas);
+        }
+        static void mostraListaCarros() {
+            foreach (Carro c in carros)
+            {
+                MessageBox.Show("Carro " + c.modelo + "\nFabricante " + c.fabricante + "\nDH " + c.dh + "\nAr " + c.ar + "\nABS " + c.abs + "\nAir bag " + c.airbag + "\nVidros eletrico " + c.ve + "\nPortas " + c.portas);
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dgAutomoveis.Rows.Clear();
+            foreach (Carro c in carros)
+            {
+                //ac, dh, abs, ab, ve, portas);
+                dgAutomoveis.Rows.Add(c.modelo, c.fabricante,c.ar, c.dh, c.abs, c.airbag,c.ve,c.portas);
+            }
+            //dgAutomoveis.Rows.Add(c.)
         }
     }
 }

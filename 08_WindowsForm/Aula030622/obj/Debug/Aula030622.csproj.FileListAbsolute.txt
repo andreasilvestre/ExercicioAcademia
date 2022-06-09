@@ -3,9 +3,10 @@ C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\Aula030622\bin\De
 C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\Aula030622\bin\Debug\Aula030622.pdb
 C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\Aula030622\obj\Debug\Aula030622.csproj.AssemblyReference.cache
 C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\Aula030622\obj\Debug\Aula030622.csproj.SuggestedBindingRedirects.cache
-C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\Aula030622\obj\Debug\Aula030622.Form1.resources
 C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\Aula030622\obj\Debug\Aula030622.Properties.Resources.resources
 C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\Aula030622\obj\Debug\Aula030622.csproj.GenerateResource.cache
 C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\Aula030622\obj\Debug\Aula030622.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\Aula030622\obj\Debug\Aula030622.exe
 C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\Aula030622\obj\Debug\Aula030622.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\Aula030622\obj\Debug\Aula030622.Principal.resources
+C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\Aula030622\obj\Debug\Aula030622.frmAutomovel.resources

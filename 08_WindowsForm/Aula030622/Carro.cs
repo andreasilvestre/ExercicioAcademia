@@ -32,14 +32,16 @@ namespace Aula030622
 
         public void MostrarDadosCarro()
         {
-            MessageBox.Show("Modelo: " + modelo);
-            MessageBox.Show("Fabricante " + this.fabricante);
-            MessageBox.Show("Ar " + this.ar);
-            MessageBox.Show("DH " + this.dh);
-            MessageBox.Show("ABS " + this.abs);
-            MessageBox.Show("Air bag " + this.airbag);
-            MessageBox.Show("Vidros eletrico " + this.ve);
-            MessageBox.Show("Portas " + this.portas);
+
+            MessageBox.Show("Carro " + this.modelo + "\nFabricante " + this.fabricante + "\nDH " + this.dh + "\nAr " + this.ar + "\nABS " + this.abs + "\nAir bag " + this.airbag + "\nVidros eletrico " + this.ve + "\nPortas " + this.portas);
+            //MessageBox.Show("Modelo: " + modelo);
+            //MessageBox.Show("Fabricante " + this.fabricante);
+            //MessageBox.Show("Ar " + this.ar);
+            //MessageBox.Show("DH " + this.dh);
+            //MessageBox.Show("ABS " + this.abs);
+            //MessageBox.Show("Air bag " + this.airbag);
+            //MessageBox.Show("Vidros eletrico " + this.ve);
+            //MessageBox.Show("Portas " + this.portas);
 
         }
     }

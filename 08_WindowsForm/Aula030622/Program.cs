@@ -8,6 +8,7 @@ namespace Aula030622
 {
     internal static class Program
     {
+        //static List<Carro> carros = new List<Carro>();
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>
@@ -16,7 +17,8 @@ namespace Aula030622
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //Application.Run(new Form1());
+            Application.Run(new Principal());
         }
     }
 }
