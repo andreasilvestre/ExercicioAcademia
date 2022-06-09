@@ -3,9 +3,11 @@ C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\CadastroUsuario\b
 C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\CadastroUsuario\bin\Debug\CadastroUsuario.pdb
 C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\CadastroUsuario\obj\Debug\CadastroUsuario.csproj.AssemblyReference.cache
 C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\CadastroUsuario\obj\Debug\CadastroUsuario.csproj.SuggestedBindingRedirects.cache
-C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\CadastroUsuario\obj\Debug\CadastroUsuario.Form1.resources
 C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\CadastroUsuario\obj\Debug\CadastroUsuario.Properties.Resources.resources
 C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\CadastroUsuario\obj\Debug\CadastroUsuario.csproj.GenerateResource.cache
 C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\CadastroUsuario\obj\Debug\CadastroUsuario.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\CadastroUsuario\obj\Debug\CadastroUsuario.exe
 C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\CadastroUsuario\obj\Debug\CadastroUsuario.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\CadastroUsuario\obj\Debug\CadastroUsuario.frmUsuario.resources
+C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\CadastroUsuario\obj\Debug\CadastroUsuario.Principal.resources
+C:\Users\Usuario\source\repos\ExercicioAcademia\08_WindowsForm\CadastroUsuario\obj\Debug\CadastroUsuario.frmCalculadora.resources

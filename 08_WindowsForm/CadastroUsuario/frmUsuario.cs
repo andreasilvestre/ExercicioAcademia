@@ -10,9 +10,10 @@ using System.Windows.Forms;
 
 namespace CadastroUsuario
 {
-    public partial class Form1 : Form
+    public partial class frmUsuario : Form
     {
-        public Form1()
+        List<Usuario> usuarios = new List<Usuario>();
+        public frmUsuario()
         {
             InitializeComponent();
         }
@@ -84,7 +85,18 @@ namespace CadastroUsuario
 
             Usuario u = new Usuario(tbNome.Text, mtbTelefone.Text, mtbCPF.Text, tbLogin.Text, tbSenha.Text, cbStatus.Text, cbTipo.Text, mtbDataNascimento.Text);
 
-            u.MostrarDadosUsuario();
+            //u.MostrarDadosUsuario();
+            dgUsuarios.Rows.Add(tbNome.Text, tbLogin.Text, tbSenha.Text, mtbDataNascimento.Text, cbStatus.Text, cbTipo.Text, mtbTelefone.Text, mtbCPF.Text);
+            usuarios.Add(u);
+
+            tbNome.Clear();
+            mtbCPF.Clear();
+            mtbTelefone.Clear();
+            tbLogin.Clear();
+            tbSenha.Clear();
+            cbStatus.ResetText();
+            cbTipo.ResetText();
+            mtbDataNascimento.Clear();
         }
 
         private void pbLimpar_Click(object sender, EventArgs e)
@@ -98,21 +110,26 @@ namespace CadastroUsuario
             cbTipo.ResetText();
             mtbDataNascimento.Clear();
 
-            //double tipo;
-            //string tipoTexto;
-
-            //tipo = double.Parse(tbTipo.Text);
-            //tipoTexto = Convert.ToString(tipo);
-            ////tipoTexto = tipo.ToString();
-         
-
-            //MessageBox.Show("Double: " + tipo +
-            //    "\nString: " + tipoTexto );
+            dgUsuarios.Rows.Clear();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("olá botão, estou testando o alt b sublinhado");
+        }
+
+        private void tbTipo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btCarregarLista_Click(object sender, EventArgs e)
+        {
+            dgUsuarios.Rows.Clear();
+            foreach (Usuario i in usuarios)
+            {
+                dgUsuarios.Rows.Add(i.nome, i.login, i.senha, i.dataNascimento, i.status, i.tipo, i.telefone, i.cpf);
+            }
         }
     }
 }
