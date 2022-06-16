@@ -1,0 +1,14 @@
+C:\Users\Usuario\source\repos\ExercicioAcademia\11_Simples_WinForm_BD\bin\Debug\11_Simples_WinForm_BD.exe.config
+C:\Users\Usuario\source\repos\ExercicioAcademia\11_Simples_WinForm_BD\bin\Debug\11_Simples_WinForm_BD.exe
+C:\Users\Usuario\source\repos\ExercicioAcademia\11_Simples_WinForm_BD\bin\Debug\11_Simples_WinForm_BD.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\11_Simples_WinForm_BD\obj\Debug\11_Simples_WinForm_BD.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\11_Simples_WinForm_BD\obj\Debug\11_Simples_WinForm_BD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\11_Simples_WinForm_BD\obj\Debug\_11_Simples_WinForm_BD.frmCadPessoas.resources
+C:\Users\Usuario\source\repos\ExercicioAcademia\11_Simples_WinForm_BD\obj\Debug\_11_Simples_WinForm_BD.Properties.Resources.resources
+C:\Users\Usuario\source\repos\ExercicioAcademia\11_Simples_WinForm_BD\obj\Debug\11_Simples_WinForm_BD.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\11_Simples_WinForm_BD\obj\Debug\11_Simples_WinForm_BD.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\11_Simples_WinForm_BD\obj\Debug\11_Simples_WinForm_BD.exe
+C:\Users\Usuario\source\repos\ExercicioAcademia\11_Simples_WinForm_BD\obj\Debug\11_Simples_WinForm_BD.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\11_Simples_WinForm_BD\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Usuario\source\repos\ExercicioAcademia\11_Simples_WinForm_BD\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Usuario\source\repos\ExercicioAcademia\11_Simples_WinForm_BD\obj\Debug\11_Simples_WinForm_BD.csproj.CopyComplete
