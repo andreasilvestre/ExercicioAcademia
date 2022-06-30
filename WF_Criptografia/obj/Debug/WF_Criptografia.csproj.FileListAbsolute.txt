@@ -1,0 +1,11 @@
+C:\Users\Usuario\source\repos\ExercicioAcademia\WF_Criptografia\bin\Debug\WF_Criptografia.exe.config
+C:\Users\Usuario\source\repos\ExercicioAcademia\WF_Criptografia\bin\Debug\WF_Criptografia.exe
+C:\Users\Usuario\source\repos\ExercicioAcademia\WF_Criptografia\bin\Debug\WF_Criptografia.pdb
+C:\Users\Usuario\source\repos\ExercicioAcademia\WF_Criptografia\obj\Debug\WF_Criptografia.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\WF_Criptografia\obj\Debug\WF_Criptografia.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\WF_Criptografia\obj\Debug\WF_Criptografia.Form1.resources
+C:\Users\Usuario\source\repos\ExercicioAcademia\WF_Criptografia\obj\Debug\WF_Criptografia.Properties.Resources.resources
+C:\Users\Usuario\source\repos\ExercicioAcademia\WF_Criptografia\obj\Debug\WF_Criptografia.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\WF_Criptografia\obj\Debug\WF_Criptografia.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ExercicioAcademia\WF_Criptografia\obj\Debug\WF_Criptografia.exe
+C:\Users\Usuario\source\repos\ExercicioAcademia\WF_Criptografia\obj\Debug\WF_Criptografia.pdb
