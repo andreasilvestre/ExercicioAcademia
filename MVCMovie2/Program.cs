@@ -25,3 +25,9 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+
+//testes: digitar na url aberta:
+//https://localhost:7038/HelloWorld
+//https://localhost:7038/HelloWorld/Welcome
+
